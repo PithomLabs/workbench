@@ -1,8 +1,8 @@
 # Overview ([Details here](https://github.com/PithomLabs/workbench/blob/main/workbench.md))
 
-Use the **Flash Workbench** first for rapid triage: identify the theory’s function class, core claim, explanation level, falsifiers, gaps, and quick verdict.
-Then use the **Extended Workbench** for the full audit: map the theory into the complete schema, require evidence for every claim, score reconstruction/invariants/falsifiability/MVT criteria, and force an incompleteness declaration.
-Together, Flash gives the fast orientation and Extended gives the drift-resistant, uniform analysis that different LLMs can follow consistently.
+1. Use the **Flash Workbench** first for rapid triage: identify the theory’s function class, core claim, explanation level, falsifiers, gaps, and quick verdict.
+2. Then use the **Extended Workbench** for the full audit: map the theory into the complete schema, require evidence for every claim, score reconstruction/invariants/falsifiability/MVT criteria, and force an incompleteness declaration.
+3. Together, Flash gives the fast orientation and Extended gives the drift-resistant, uniform analysis that different LLMs can follow consistently.
 
 
 # The Workbench: A New Grammar for Honest Physics
