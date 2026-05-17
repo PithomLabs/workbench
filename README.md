@@ -54,3 +54,7 @@ That is not a small contribution. In an age of abundant papers, accelerating AI,
 The Workbench is that instrument: first as a flash of orientation, then as a full discipline of judgment.
 
 It does not replace imagination. It gives imagination a conscience.
+
+## License
+
+MIT
