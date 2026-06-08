@@ -1,4 +1,4 @@
-# Overview ([Details here](https://github.com/PithomLabs/workbench/blob/main/workbench.md))
+# Overview ([Details here](https://github.com/PithomLabs/workbench/blob/main/workbench2.md))
 
 1. Use the **Flash Workbench** first for rapid triage: identify the theory’s function class, core claim, explanation level, falsifiers, gaps, and quick verdict.
 2. Then use the **Extended Workbench** for the full audit: map the theory into the complete schema, require evidence for every claim, score reconstruction/invariants/falsifiability/MVT criteria, and force an incompleteness declaration.
