@@ -17,30 +17,50 @@ but to compare the touch.
 
 ---
 
-# Author’s Note
+# Author’s Note  
 ## On Speculation, Proof, and Responsibility
 
-This book contains speculation. That should be said plainly.
+This book contains speculation.
 
-It also contains history, explanation, methodology, criticism, and proposed research discipline. But at its frontier, it speculates. It asks whether the great theories of physics may be read as partial contacts with a deeper reality. It asks whether bridges between those theories might be built more carefully. It asks whether tools such as AI, proof assistants, toy models, and structured Workbenches might help organize the search.
+That should be said plainly. It also contains history, explanation, methodology, criticism, and proposed research discipline. But at its frontier, it speculates. It asks whether the great theories of physics may be read as partial contacts with a deeper reality. It asks whether bridges between those theories might be built more carefully. It asks whether tools such as AI, proof assistants, toy models, and structured notebooks might help organize the search.
 
 These are not finished answers. They are invitations to disciplined inquiry.
 
-The central proposal, **Triadic Bridge Architecture**, or **TBA**, is not presented as an established physical theory. It is not a completed mathematical framework. It is not a verified model of nature. It is not a replacement for general relativity, quantum mechanics, quantum field theory, thermodynamics, or the Standard Model. It is a candidate bridge architecture.
+The operational method in this book is the **Elephant Bridge Protocol**, or **EBP**. Earlier drafts used heavier architectural language. This revision deliberately moves the book under EBP v2.1: a minimal operational protocol whose doctrine is simple:
 
-That means its primary value, at this stage, is methodological: it offers a way to handle bold ideas without either dismissing them too quickly or promoting them too cheaply. A reader should not ask, “Has TBA solved physics?” It has not. A better question is: “Does TBA give us a clearer way to state, test, compare, and refine claims about deep physics?”
+```text
+Ideas enter free.
+Promotion costs debt.
+Debt does not kill.
+Debt is forever payable.
+New evidence creates new debt.
+No final-truth claim may be promoted.
+Accounting must never become the work.
+```
 
-This book does not claim that spacetime has been derived from a deeper substrate. It does not claim that E8 is the foundation of physical reality. It does not claim that black-hole information has been solved. It does not claim a proof of the Navier–Stokes existence and smoothness problem. It does not claim a proof of the Yang–Mills existence and mass gap problem. It does not claim that artificial intelligence can independently discover and validate final physics. It does not claim that Lean or any proof assistant can certify physical truth without interpretation and empirical contact.
+EBP is not a theory of everything. It is not a theory generator. It is not a truth engine. It is not a replacement for peer review, experiment, proof, or human judgment. It is a **notebook with a conscience**: wide open to imagination at the door, ruthless against unearned promotion at the throne.
 
-The whole purpose of the Workbench is to prevent exactly those overclaims.
+This distinction matters because speculative physics fails in two opposite ways. It can kill ideas too early, before they have had a chance to become clear. Or it can promote ideas too cheaply, before they have paid the debts that make them inspectable. EBP exists between those errors.
 
-Speculation is not the enemy of science. Undisciplined speculation is. Every major theory begins before it is complete. To forbid speculation would be to forbid beginnings. But to confuse speculation with knowledge would destroy trust. The Workbench exists between those errors. It allows seeds to enter. It does not call them trees. It allows toy models to teach. It does not call them worlds. It allows mathematical jewels to shine. It does not crown them as kings. It allows AI to assist. It does not let AI promote itself.
+A reader should not ask, “Has EBP solved physics?” It has not. A better question is: “Does EBP give us a clearer way to state, test, compare, and refine claims about deep physics?” That is the level at which this book should first be judged.
 
-The posture of this book is simple: **bold entry, slow promotion**. Ideas may enter freely. Promotion must be earned.
+This book claims that speculative theory-building needs stronger epistemic hygiene. Mathematical beauty, physical evidence, simulation results, formal proof, AI-generated suggestions, toy models, post-hoc fits, historical analogy, and empirical prediction are not the same kind of support. A simulation is not a proof. A proof is not an experiment. A toy model is not the universe. A metaphor is not a mechanism. An AI suggestion is not a discovery. A beautiful mathematical object is not automatically physical reality.
+
+The book also takes a Gödel-humble posture. Formal systems can be extraordinarily powerful, but formal success is not omniscience. A proof assistant can check whether a theorem follows from assumptions; it cannot by itself decide whether those assumptions describe nature. This is not a rejection of formal proof. It is a refusal to let one kind of rigor impersonate every kind of truth.[^godel]
+
+The “elephant” metaphor is meant to capture the book’s larger attitude. Existing theories may be partial contacts with reality. Newton, Maxwell, Einstein, quantum theory, thermodynamics, gauge theory, and black-hole physics may each touch something real while still being incomplete. The work is not to accept or reject whole theories wholesale. The work is to extract what survives and test whether the surviving features can be bridged.
+
+This book does not claim that EBP is true physics. It does not claim that spacetime has been derived from a deeper substrate. It does not claim that E8 is the foundation of physical reality. It does not claim that black-hole information has been solved. It does not claim a proof of the Navier–Stokes existence and smoothness problem. It does not claim a proof of the Yang–Mills existence and mass gap problem. It does not claim that artificial intelligence can independently discover and validate final physics.
+
+Any reading that turns this book into such a declaration has misunderstood the book. The whole purpose of EBP is to prevent exactly that kind of overclaim.
+
+The posture is simple: bold entry, slow promotion.
+
+Ideas may enter freely. Promotion must be earned.
 
 ---
 
-# Preface
+# Preface  
 ## Why This Book Exists
 
 This book began with a suspicion.
@@ -51,21 +71,45 @@ Perhaps the great theories of physics are not simply rivals fighting for a final
 
 Each theory may be incomplete. Each may still contain something real. The question is how to keep the real part without worshiping the whole.
 
-The title, *The Elephant Behind Physics*, comes from the old parable of the blind men and the elephant. One touches the leg and says the elephant is a pillar. Another touches the ear and says it is a fan. Another touches the tail and says it is a rope. Another touches the tusk and says it is a spear. Each report contains contact. Each report becomes false when treated as the whole.
+The title, *The Elephant Behind Physics*, comes from the old parable of the blind men and the elephant. One man touches the leg and says the elephant is a pillar. Another touches the ear and says it is a fan. Another touches the tail and says it is a rope. Another touches the tusk and says it is a spear. Each report contains contact. Each report becomes false when treated as the whole.
 
-Physics can be read this way. Not because physicists are blind in any simple sense, but because every theory has a boundary. Newton does not survive unchanged at the speed of light or near a black hole. Classical physics does not survive unchanged inside the atom. General relativity and quantum theory both succeed brilliantly, yet they do not fit together cleanly. Quantum field theory describes particles and forces with extraordinary power, yet some of its deepest mathematical foundations remain difficult. Black holes still ask questions we cannot fully answer.
+Physics can be read this way. Not because physicists are blind in any simple sense. Physics is one of humanity’s greatest achievements. It has given us equations that predict planets, fields that describe light, geometries that bend under gravity, quantum rules that power the modern world, and experimental confirmations of astonishing precision.
 
-This book asks how we might build bridges between the touches.
+But every theory also has a boundary. Newton does not survive unchanged at the speed of light or near a black hole. Classical physics does not survive unchanged inside the atom. General relativity and quantum theory both succeed brilliantly, yet they do not fit together cleanly. Quantum field theory describes particles and forces with extraordinary power, yet some of its deepest mathematical foundations remain difficult. Black holes still ask questions we cannot fully answer.
 
-TBA is not a theory of everything. It is a disciplined workshop for bold ideas. It asks every speculative claim to become clearer: What exactly is being claimed? What is the bridge? What is preserved across the bridge? What rival could do the same thing? What obstruction might block it? What would make it weaker? What remains unresolved?
+The elephant is larger than any single hand.
 
-These questions prevent a mathematical jewel from becoming an idol. They prevent a toy model from pretending to be the universe. They prevent a simulation from being called proof. They prevent a proof assistant from being mistaken for an oracle of physical truth. They prevent artificial intelligence from turning fluent language into false discovery.
+This book asks how we might build bridges between the hands.
 
-They also protect imagination. Discipline is often treated as imagination’s enemy, but in frontier physics undisciplined imagination burns out quickly. It produces grand claims, beautiful diagrams, confident essays, and fragile castles of language. Disciplined imagination is different. It can survive being made precise.
+The method developed here is the **Elephant Bridge Protocol**, or **EBP**. EBP is not a completed theory of nature. It is not a theory of everything. It does not solve quantum gravity. It does not prove spacetime emergence. It does not declare E8 to be physically fundamental. It does not solve Navier–Stokes or Yang–Mills. It does not claim that artificial intelligence can discover final physics by itself.
 
-The book is a hybrid: part popular journey through physics, part Workbench manual. The main chapters are readable and narrative. The appendices gather the method into templates, layer maps, proof-boundary rules, roadmaps, glossary terms, and sample artifact packs.
+EBP is better understood as a notebook with a conscience.
 
-This book does not ask you to believe TBA. It asks you to practice a way of thinking. When you hear a bold claim, ask what kind of claim it is. When you see a beautiful equation, ask what it maps to. When you encounter a simulation, ask what assumptions it used. When AI gives a brilliant answer, ask what was checked. These questions do not kill wonder. They make wonder trustworthy.
+It lets any idea enter as prose. The canonical entry is not YAML, JSON, Lean, a profile, a taxonomy, or a dashboard. The smallest entry is simply an owner and a claim. The protocol does not punish incompleteness. It quietly asks what the idea still owes before it may be promoted.
+
+The minimum pipeline is:
+
+```text
+capture → clarify → debt → test → promote
+```
+
+This protects imagination without surrendering rigor. A radical idea can enter through the door. But the throne is guarded by debt: maps, invariants, toy checks, null models, obstruction responses, and faithfulness reviews. If new evidence appears, debt can return. Reopening a promoted idea is not shame. It is the ledger doing its job.
+
+The book is written as a hybrid. The main chapters are a readable journey through physics, speculation, AI, proof, and bridge-building. The appendices are practical, but they have been revised to match the minimal protocol: prose first, Lean-shaped structures for promotion, no YAML-first bureaucracy, no stage machinery, no dashboard before artifacts.
+
+This book is also written in the shadow of artificial intelligence. AI changes the conditions of speculation. It can generate plausible scientific prose, code, diagrams, and formal-looking arguments faster than humans can review them. The future may not suffer from too few ideas. It may suffer from too many ideas that sound ready before they have paid debt.
+
+That is why EBP matters.
+
+AI may propose; review must promote.
+
+The same caution applies to mathematical beauty. E8 deserves wonder. Its symmetry, rigidity, and role in sphere packing make it a jewel of human thought. But mathematical certainty is not physical ontology. E8 may become bridge material. It does not become the bridge by beauty alone.
+
+The reader should not approach this book as a demand for belief. It is not asking you to accept EBP as physics. It is asking you to practice a way of thinking.
+
+When you hear a bold claim, ask what kind of claim it is. When you see a beautiful equation, ask what it maps to. When you encounter a simulation, ask what assumptions it used. When AI gives a brilliant answer, ask what was checked. When a theory explains too much, ask what would make it wrong.
+
+These questions do not kill wonder. They make wonder trustworthy.
 
 ---
 
@@ -87,7 +131,7 @@ What remains unresolved?
 
 Use these questions while reading physics, listening to lectures, watching videos, evaluating AI answers, studying speculative theories, or testing your own ideas.
 
-The book has eight parts. Parts I and II introduce the great theories and their cracks. Parts III and IV introduce TBA and its layered way of organizing candidate structures, dynamics, bridge mechanisms, recovery targets, observers, and tests. Part V discusses Lean, formal proof, E8, AI, and the conjecture refinery. Part VI shows first crossings through toy models, rivals, obstructions, and prediction cards. Part VII explains maturity, failure, and convergence. Part VIII and the Epilogue gather the final vision.
+The book has eight parts. Parts I and II introduce the great theories and their cracks. Parts III and IV introduce EBP and its layered way of organizing candidate structures, dynamics, bridge mechanisms, recovery targets, observers, and tests. Part V discusses Lean, formal proof, E8, AI, and the conjecture refinery. Part VI shows first crossings through toy models, rivals, obstructions, and prediction cards. Part VII explains alive/promoted/reopened status, failure, and convergence. Part VIII and the Epilogue gather the final vision.
 
 At the end of each chapter, a compact **Workbench Note** appears:
 
@@ -104,60 +148,70 @@ The notes are not homework. They are a conscience at the end of the story. They 
 
 # Table of Contents
 
-- Author’s Note
-- Preface
-- Reader’s Guide
-- Prologue — The Blind Men and the Light Beam
-- Part I — The Great Touches
-  - Chapter 1 — The Clockwork Universe
-  - Chapter 2 — The Invisible Ocean
-  - Chapter 3 — The Boy Who Chased a Beam of Light
-  - Chapter 4 — The Stage Becomes an Actor
-  - Chapter 5 — The Quantum Rebellion
-- Part II — The Cracks in the Cathedral
-  - Chapter 6 — The Two Languages That Refuse to Marry
-  - Chapter 7 — The Black Hole That Eats the Rules
-  - Chapter 8 — The River That Might Become Infinite
-  - Chapter 9 — The Field That Refuses to Whisper
-  - Chapter 10 — Why Simulation Is Not Proof
-- Part III — The TBA Proposal
-  - Chapter 11 — What If Space Is Not the Beginning?
-  - Chapter 12 — E8: The Jewel, Not the King
-  - Chapter 13 — The Bridge Rule
-  - Chapter 14 — Plugins in the Workshop
-  - Chapter 15 — The Workbench of Reality
-- Part IV — Beneath the Smooth World
-  - Chapter 16 — The Ants on the Crystal Road
-  - Chapter 17 — The Music Without a Metronome
-  - Chapter 18 — The Alchemy That Must Not Be Magic
-  - Chapter 19 — The World We Must Get Back
-  - Chapter 20 — The Click That Becomes a World
-  - Chapter 21 — The Theory Must Bleed
-- Part V — Machines in the Workshop
-  - Chapter 22 — The Machine That Refuses to Bluff
-  - Chapter 23 — The Jewel That Was Proved Twice
-  - Chapter 24 — The Apprentice in the Infinite Library
-  - Chapter 25 — The Conjecture Refinery
-- Part VI — First Crossings
-  - Chapter 26 — The First Bridge Must Be Small
-  - Chapter 27 — A Toy Universe on the Table
-  - Chapter 28 — The Boring Rival
-  - Chapter 29 — The Cliffs on the Map
-  - Chapter 30 — The Wound Written in Advance
-  - Chapter 31 — The First Thirty Days
-- Part VII — What Survival Would Mean
-  - Chapter 32 — From Seed to Serious Contender
-  - Chapter 33 — When a Theory Fails Well
-  - Chapter 34 — If the Bridges Converge
-- Part VIII — The Bridge Ahead
-  - Chapter 35 — The Elephant Behind Physics
-  - Chapter 36 — The Reader’s Workbench
-- Epilogue — The Next Honest Crossing
-- Appendices A–H
-- Endnotes
+- [Author’s Note — On Speculation, Proof, and Responsibility](#authors-note)
+- [Preface — Why This Book Exists](#preface)
+- [Reader’s Guide — How to Use This Book](#readers-guide)
+- [Table of Contents](#table-of-contents)
+- [Visual Map of the Book](#visual-map-of-the-book)
+- [Prologue — The Blind Men and the Light Beam](#prologue)
+- [Part I — The Great Touches](#part-i)
+  - [Chapter 1 — The Clockwork Universe](#chapter-1)
+  - [Chapter 2 — The Invisible Ocean](#chapter-2)
+  - [Chapter 3 — The Boy Who Chased a Beam of Light](#chapter-3)
+  - [Chapter 4 — The Stage Becomes an Actor](#chapter-4)
+  - [Chapter 5 — The Quantum Rebellion](#chapter-5)
+- [Part II — The Cracks in the Cathedral](#part-ii)
+  - [Chapter 6 — The Two Languages That Refuse to Marry](#chapter-6)
+  - [Chapter 7 — The Black Hole That Eats the Rules](#chapter-7)
+  - [Chapter 8 — The River That Might Become Infinite](#chapter-8)
+  - [Chapter 9 — The Field That Refuses to Whisper](#chapter-9)
+  - [Chapter 10 — Why Simulation Is Not Proof](#chapter-10)
+- [Part III — The EBP Proposal](#part-iii)
+  - [Interlude — Popper, Kuhn, Lakatos, and the Notebook With a Conscience](#interlude)
+  - [Chapter 11 — What If Space Is Not the Beginning?](#chapter-11)
+  - [Chapter 12 — E8: The Jewel, Not the King](#chapter-12)
+  - [Chapter 13 — The Bridge Rule](#chapter-13)
+  - [Chapter 14 — Plugins in the Workshop](#chapter-14)
+  - [Chapter 15 — The Notebook With a Conscience](#chapter-15)
+- [Part IV — Beneath the Smooth World](#part-iv)
+  - [Chapter 16 — The Ants on the Crystal Road](#chapter-16)
+  - [Chapter 17 — The Music Without a Metronome](#chapter-17)
+  - [Chapter 18 — The Alchemy That Must Not Be Magic](#chapter-18)
+  - [Chapter 19 — The World We Must Get Back](#chapter-19)
+  - [Chapter 20 — The Click That Becomes a World](#chapter-20)
+  - [Chapter 21 — The Theory Must Bleed](#chapter-21)
+- [Part V — Machines in the Workshop](#part-v)
+  - [Chapter 22 — The Machine That Refuses to Bluff](#chapter-22)
+  - [Chapter 23 — The Jewel That Was Proved Twice](#chapter-23)
+  - [Chapter 24 — The Apprentice in the Infinite Library](#chapter-24)
+  - [Chapter 25 — The Conjecture Refinery](#chapter-25)
+- [Part VI — First Crossings](#part-vi)
+  - [Chapter 26 — The First Bridge Must Be Small](#chapter-26)
+  - [Chapter 27 — A Toy Universe on the Table](#chapter-27)
+  - [Chapter 28 — The Boring Rival](#chapter-28)
+  - [Chapter 29 — The Cliffs on the Map](#chapter-29)
+  - [Chapter 30 — The Wound Written in Advance](#chapter-30)
+  - [Chapter 31 — The First Thirty Days](#chapter-31)
+- [Part VII — What Survival Would Mean](#part-vii)
+  - [Chapter 32 — Alive, Promoted, and Reopened](#chapter-32)
+  - [Chapter 33 — When a Theory Fails Well](#chapter-33)
+  - [Chapter 34 — If the Bridges Converge](#chapter-34)
+- [Part VIII — The Bridge Ahead](#part-viii)
+  - [Chapter 35 — The Elephant Behind Physics](#chapter-35)
+  - [Chapter 36 — The Reader’s Workbench](#chapter-36)
+- [Epilogue — The Next Honest Crossing](#epilogue)
+- [Appendices](#appendices)
+  - [Appendix A — The Minimal Elephant Bridge Protocol](#appendix-a)
+  - [Appendix B — Bridge Map, Flash Pass, and Extended Pass](#appendix-b)
+  - [Appendix C — Lean, AI, and the Proof Boundary](#appendix-c)
+  - [Appendix D — The Minimal Roadmap](#appendix-d)
+  - [Appendix E — Glossary of Working Terms](#appendix-e)
+  - [Appendix F — Sample EBP Pass](#appendix-f)
+  - [Appendix G — Suggested Reading Map](#appendix-g)
+  - [Appendix H — Final Book Blueprint](#appendix-h)
+- [Endnotes](#endnotes)
 
 ---
-
 
 # Visual Map of the Book
 
@@ -170,31 +224,34 @@ flowchart TD
     T[Thermodynamics: hidden multiplicity] --> E
     G[Gauge theory: symmetry] --> E
     B[Black holes: entropy and information] --> E
-    E --> W[Workbench: compare the touches]
+    E --> P[Elephant Bridge Protocol]
+    P --> C[Compare the touches without crowning them]
+```
+
+```mermaid
+flowchart LR
+    D[Door: ideas enter free] --> W[Workbench: debt is paid]
+    W --> T[Throne: promotion requires debt retired]
+    T -. new evidence creates new debt .-> W
+```
+
+```mermaid
+flowchart LR
+    I[Inbox] --> WB[Workbench]
+    WB --> PR[Promoted]
+    PR -. obstruction/null model/faithfulness issue .-> WB
 ```
 
 ```mermaid
 flowchart LR
     A[AI proposes] --> B[Human/source review]
-    B --> C[Toy test / formal proof / simulation]
-    C --> D[Rival comparison]
-    D --> E[Status update]
-```
-
-```mermaid
-flowchart LR
-    P[Profile] --> C[Claim]
-    C --> D[Debt]
-    D --> B[Bridge]
-    B --> I[Invariant]
-    I --> R[Rival]
-    R --> T[Toy check]
-    T --> O[Obstruction]
-    O --> F[Faithfulness review]
-    F --> S[Status report]
+    B --> C[Toy check / formal proof / simulation]
+    C --> D[Rival or null model]
+    D --> E[Debt retired or reintroduced]
 ```
 
 ---
+
 # Prologue
 ## The Blind Men and the Light Beam
 
@@ -216,7 +273,7 @@ Today we have new tools: enormous libraries, symbolic computation, formal proof 
 
 The future needs a Workbench: not a throne room where a theory is crowned too early, but a place where claims are named, bridges are stated, invariants are tracked, rivals are invited, obstructions are recorded, and failures are allowed to teach.
 
-TBA is the candidate framework developed in this book. It is not the final elephant. It is a disciplined way of reaching toward the elephant without pretending we already hold it.
+EBP is the operational protocol developed in this book. It is not the final elephant. It is a disciplined way of reaching toward the elephant without pretending we already hold it.
 
 Do not crown the hand that touched the elephant. Build the bridge between the touches.
 
@@ -225,7 +282,7 @@ Do not crown the hand that touched the elephant. Build the bridge between the to
 **Main idea:** Great theories may be partial contacts with a deeper reality.  
 **Bridge:** Historical theory → surviving feature → future bridge candidate.  
 **Obstacle:** A partial truth becomes false when treated as the whole.  
-**Open debt:** TBA must show how partial contacts can be compared without overclaiming.
+**Open debt:** EBP must show how partial contacts can be compared without overclaiming.
 
 ---
 # Part I
@@ -253,7 +310,7 @@ Newton’s gravity acted across empty space. Space and time were assumed, not ex
 
 Still, Newton was not discarded. He survived as a limit. His laws still guide spacecraft, bridges, engines, tides, and daily motion. This is the first lesson of the elephant: a theory can fail as a final picture and still touch reality deeply.
 
-TBA must respect this. Any deeper framework that cannot recover Newtonian behavior in the right regime is not deeper. It is broken. A new theory earns the right to replace an old one only by explaining why the old one worked.
+EBP must respect this. Any deeper framework that cannot recover Newtonian behavior in the right regime is not deeper. It is broken. A new theory earns the right to replace an old one only by explaining why the old one worked.
 
 **Workbench Note**
 
@@ -284,14 +341,14 @@ Again the elephant lesson appears. The ether failed. The field survived.
 
 A future Workbench must be able to make exactly this distinction. It should not ask only whether an old worldview was wholly true or false. It should ask what feature had reality-contact: local field degrees of freedom, wave propagation, symmetry, energy flow, and unification.
 
-For TBA, the field is a recovery target. If a candidate substrate or bridge architecture cannot explain why field-like behavior emerges, it has not recovered the world we know.
+For EBP, the field is a recovery target. If a candidate substrate or bridge architecture cannot explain why field-like behavior emerges, it has not recovered the world we know.
 
 **Workbench Note**
 
 **Main idea:** Faraday and Maxwell touched field as a real physical language.  
 **Bridge:** Local field values → wave propagation → light.  
 **Obstacle:** The ether showed how a useful idea can carry a failed interpretation.  
-**Open debt:** TBA must recover field-like behavior without smuggling it in.
+**Open debt:** EBP must recover field-like behavior without smuggling it in.
 
 ---
 # Chapter 3
@@ -309,7 +366,7 @@ The cost was common sense. The reward was spacetime.
 
 Space and time became woven together. Observers could disagree about distances and durations, but not about a deeper invariant relation. A theory saved objectivity by changing what counted as objective.
 
-That pattern matters for TBA. If spacetime is ever to be explained as emergent, the task is not merely to produce something that looks spatial. It must recover the relational structure that makes special relativity work: light cones, causal order, invariant intervals, and symmetry between inertial frames.
+That pattern matters for EBP. If spacetime is ever to be explained as emergent, the task is not merely to produce something that looks spatial. It must recover the relational structure that makes special relativity work: light cones, causal order, invariant intervals, and symmetry between inertial frames.
 
 A toy graph with distances is not enough. A discrete substrate with propagation is not enough. A candidate must face the Lorentz obstruction: why do observers not see the seams of the underlying structure? Why is there no obvious preferred frame?
 
@@ -320,7 +377,7 @@ Einstein’s light beam did not solve everything. It identified a pressure point
 **Main idea:** Special relativity touched invariant structure beneath observer disagreement.  
 **Bridge:** Light-speed invariance → spacetime interval → relativistic physics.  
 **Obstacle:** Any deeper substrate risks preferred frames or broken Lorentz behavior.  
-**Open debt:** TBA must recover relativistic symmetry rather than assume it.
+**Open debt:** EBP must recover relativistic symmetry rather than assume it.
 
 ---
 # Chapter 4
@@ -340,7 +397,7 @@ But general relativity carries its own boundary. Its equations can lead to singu
 
 This is where the elephant becomes difficult. Einstein touched geometry, but quantum theory touches something else. Both touches are real. Their overlap is not fully understood.
 
-TBA must therefore treat general relativity with both reverence and pressure. Reverence, because any deeper theory must recover its successes. Pressure, because recovering smooth geometry from a deeper structure is not optional if spacetime is claimed to be emergent.
+EBP must therefore treat general relativity with both reverence and pressure. Reverence, because any deeper theory must recover its successes. Pressure, because recovering smooth geometry from a deeper structure is not optional if spacetime is claimed to be emergent.
 
 A bridge from substrate to geometry must answer hard questions. What corresponds to distance? What corresponds to curvature? How does locality arise? Why does the large-scale world obey Einstein’s equations, at least approximately? What fails near singularities or quantum regimes?
 
@@ -351,7 +408,7 @@ The curved stage teaches a severe lesson. It is not enough to say that geometry 
 **Main idea:** General relativity touched gravity as geometry.  
 **Bridge:** Mass-energy → spacetime curvature → gravitational motion.  
 **Obstacle:** Smooth geometry meets singularities and quantum incompatibility.  
-**Open debt:** TBA must recover geometric gravity from lower-level structure.
+**Open debt:** EBP must recover geometric gravity from lower-level structure.
 
 ---
 # Chapter 5
@@ -369,7 +426,7 @@ Yet quantum theory is not chaos. It predicts spectra, chemistry, semiconductors,
 
 Still, interpretation remains unsettled. What is the wavefunction? What exactly happens in measurement? Why do definite outcomes appear? Decoherence explains much about why interference becomes inaccessible in macroscopic systems, but it does not settle every interpretive question.
 
-For TBA, quantum theory is not optional. A deeper framework must recover amplitudes, interference, entanglement, probability, and measurement records. It cannot merely say, “underneath, everything is classical,” unless it can explain why quantum violations of classical assumptions arise.
+For EBP, quantum theory is not optional. A deeper framework must recover amplitudes, interference, entanglement, probability, and measurement records. It cannot merely say, “underneath, everything is classical,” unless it can explain why quantum violations of classical assumptions arise.
 
 This is one of the most dangerous areas for speculative frameworks. Many proposals reproduce quantum-sounding words: information, entanglement, observer, collapse, guidance, branching. But words are not bridges. A bridge must state formal structure, translation rule, invariant, and regime.
 
@@ -378,7 +435,7 @@ This is one of the most dangerous areas for speculative frameworks. Many proposa
 **Main idea:** Quantum theory touched possibility, amplitude, entanglement, and measurement.  
 **Bridge:** Quantum state → probabilities → observed records.  
 **Obstacle:** Interpretation and measurement remain difficult, and classical intuition fails.  
-**Open debt:** TBA must recover quantum behavior without reducing it to slogans.
+**Open debt:** EBP must recover quantum behavior without reducing it to slogans.
 
 ---
 # Part II
@@ -404,14 +461,14 @@ Each approach may touch something real. Each faces obstructions.
 
 The Workbench posture is not to ask too early which program is final. It asks what each program contributes. Does it preserve unitarity? Does it recover geometry? Does it explain entropy? Does it handle locality? Does it make contact with known physics? Does it hide assumptions?
 
-TBA is a bridge architecture rather than a single mechanism. It begins from the possibility that no existing program should be swallowed whole, but many may contain surviving features. The two languages that refuse to marry may require a deeper grammar. A deeper grammar must explain why both old languages worked.
+EBP is a bridge architecture rather than a single mechanism. It begins from the possibility that no existing program should be swallowed whole, but many may contain surviving features. The two languages that refuse to marry may require a deeper grammar. A deeper grammar must explain why both old languages worked.
 
 **Workbench Note**
 
 **Main idea:** General relativity and quantum theory are both successful but not unified.  
 **Bridge:** Geometry language ↔ quantum language.  
 **Obstacle:** Spacetime is dynamic in GR but often background in quantum theory.  
-**Open debt:** TBA must recover both languages without hiding one inside the other.
+**Open debt:** EBP must recover both languages without hiding one inside the other.
 
 ---
 # Chapter 7
@@ -427,7 +484,7 @@ This area law is one of the great clues in modern physics. It suggests that the 
 
 Then comes the paradox. If Hawking radiation is purely thermal, what happens to the information about what fell in? Quantum theory insists that evolution should preserve information in a precise sense. Classical black-hole evaporation seems to erase it. Something must give: locality, the horizon’s innocence, the meaning of interior, or our assumptions about quantum gravity.
 
-Many mechanisms enter here: holography, string-theoretic fuzzballs, island formulas, Page curves, loop-quantum horizon states, tensor networks, and guidance-history ideas. TBA should not crown one mechanism prematurely. It should turn each into a plugin with a job.
+Many mechanisms enter here: holography, string-theoretic fuzzballs, island formulas, Page curves, loop-quantum horizon states, tensor networks, and guidance-history ideas. EBP should not crown one mechanism prematurely. It should turn each into a plugin with a job.
 
 The black-hole information problem punishes vague language. “Information is preserved” is not enough. Where is it encoded? How is it recovered? What subsystem contains it? What observer can access it? What is the map from microstates to macroscopic observables?
 
@@ -438,7 +495,7 @@ A toy model may compare thermal-loss, reversible scrambling, code-recovery, and 
 **Main idea:** Black holes force gravity, quantum theory, entropy, and information into one problem.  
 **Bridge:** Horizon geometry → microstates → entropy/information behavior.  
 **Obstacle:** Different mechanisms can reproduce partial features while hiding assumptions.  
-**Open debt:** TBA must compare black-hole information plugins through explicit toy and recovery tests.
+**Open debt:** EBP must compare black-hole information plugins through explicit toy and recovery tests.
 
 ---
 # Chapter 8
@@ -452,18 +509,18 @@ This is not because engineers cannot calculate fluids. They can. It is because m
 
 A simulation may show a flow behaving well. A physical fluid may avoid literal infinities because real matter has molecular structure. A numerical method may regularize small scales. None of that by itself proves that the ideal continuum equations never blow up.
 
-This distinction matters for TBA. Suppose someone says: “If space is discrete at small scales, then Navier–Stokes singularities are impossible.” Physically, a cutoff may prevent literal infinities. But the Millennium problem asks a precise mathematical question about continuum equations. A discrete story may be relevant to physical fluids, but it does not automatically prove the continuum theorem.
+This distinction matters for EBP. Suppose someone says: “If space is discrete at small scales, then Navier–Stokes singularities are impossible.” Physically, a cutoff may prevent literal infinities. But the Millennium problem asks a precise mathematical question about continuum equations. A discrete story may be relevant to physical fluids, but it does not automatically prove the continuum theorem.
 
 Navier–Stokes is therefore a gate of humility. It teaches that a problem can be physically intuitive and mathematically unforgiving. It also teaches why bridge claims must state their target. Are we trying to explain real fluids? Prove a PDE theorem? Build a toy model of turbulence? Each target carries different obligations.
 
-A responsible TBA claim might say: “A discrete or relational substrate may provide a physical ultraviolet cutoff relevant to fluid-like effective behavior.” An invalid overclaim would say: “Therefore TBA solves Navier–Stokes.” It does not.
+A responsible EBP claim might say: “A discrete or relational substrate may provide a physical ultraviolet cutoff relevant to fluid-like effective behavior.” An invalid overclaim would say: “Therefore EBP solves Navier–Stokes.” It does not.
 
 **Workbench Note**
 
 **Main idea:** Navier–Stokes separates physical intuition from mathematical proof.  
 **Bridge:** Fluid equations → continuum behavior → possible singularity question.  
 **Obstacle:** Discrete physical cutoffs do not automatically solve continuum PDE problems.  
-**Open debt:** TBA must distinguish physical regularization from mathematical proof.
+**Open debt:** EBP must distinguish physical regularization from mathematical proof.
 
 ---
 # Chapter 9
@@ -477,11 +534,11 @@ The mystery is that the theory appears to have a mass gap: a lowest positive ene
 
 This is one of the deepest places where physics works and mathematics still demands more.
 
-For TBA, Yang–Mills is both warning and target. It is a warning because words like “gap,” “field,” “symmetry,” and “confinement” can be used loosely. A finite graph may have a spectral gap. A toy model may confine a signal. A lattice simulation may show mass-like behavior. None of this is automatically the Yang–Mills mass gap.
+For EBP, Yang–Mills is both warning and target. It is a warning because words like “gap,” “field,” “symmetry,” and “confinement” can be used loosely. A finite graph may have a spectral gap. A toy model may confine a signal. A lattice simulation may show mass-like behavior. None of this is automatically the Yang–Mills mass gap.
 
 It is a target because any framework claiming to reach fundamental physics must eventually face gauge symmetry. Matter comes with charges, representations, interactions, anomaly constraints, chirality, generations, masses, and mixings. A beautiful substrate that cannot recover gauge structure remains far from the Standard Model.
 
-TBA should treat Yang–Mills as a profile, not a trophy. It can map the proof landscape: constructive quantum field theory, Euclidean measures, axioms, gauge invariance, reflection positivity, renormalization, Wilson loops, confinement, and spectral gaps. But it must not claim a solution.
+EBP should treat Yang–Mills as a profile, not a trophy. It can map the proof landscape: constructive quantum field theory, Euclidean measures, axioms, gauge invariance, reflection positivity, renormalization, Wilson loops, confinement, and spectral gaps. But it must not claim a solution.
 
 A responsible claim might say: “This candidate dynamics exhibits a finite-model spectral gap under these assumptions and may serve as a toy for later gauge-recovery study.” A reckless claim would say: “This solves Yang–Mills.”
 
@@ -490,7 +547,7 @@ A responsible claim might say: “This candidate dynamics exhibits a finite-mode
 **Main idea:** Yang–Mills is both a physical success and a rigorous mathematical challenge.  
 **Bridge:** Gauge symmetry → quantum fields → mass gap/confinement behavior.  
 **Obstacle:** Toy spectral gaps are not the Yang–Mills mass gap.  
-**Open debt:** TBA must treat Yang–Mills as a proof landscape, not a claimed victory.
+**Open debt:** EBP must treat Yang–Mills as a proof landscape, not a claimed victory.
 
 ---
 # Chapter 10
@@ -519,15 +576,44 @@ If simulation shows a pattern, the next step is not proclamation. The next step 
 **Main idea:** Simulation, proof, experiment, and interpretation are different kinds of support.  
 **Bridge:** Model rules → computational behavior → possible conjecture.  
 **Obstacle:** Visual complexity can masquerade as physical truth.  
-**Open debt:** TBA must label evidence status and require faithfulness reviews.
+**Open debt:** EBP must label evidence status and require faithfulness reviews.
 
 ---
 # Part III
-## The TBA Proposal
+## The EBP Proposal
 
-The old theories touched something real. The cracks show that no single touch is enough. TBA begins from a simple proposal: do not crown one touch too early. Build disciplined bridges between them.
+The old theories touched something real. The cracks show that no single touch is enough. EBP begins from a simple proposal: do not crown one touch too early. Build disciplined bridges between them.
 
 ---
+# Interlude  
+## Popper, Kuhn, Lakatos, and the Notebook With a Conscience
+
+EBP is not trying to replace the philosophy of science. It lives downstream from it, closer to the daily workbench than the grand theory of how science changes.
+
+Karl Popper taught that scientific claims need exposure to possible failure. A theory that can explain every outcome after the fact has protected itself too well. Thomas Kuhn taught that science lives inside paradigms, and that crises can force changes in the standards by which problems are seen. Imre Lakatos described research programs with hard cores, protective belts, progressive problem shifts, and degenerating ones.[^philsci]
+
+EBP inherits something from all three, but it is not identical with any of them.
+
+From Popper, it borrows the demand that a claim must be woundable. A bridge needs a failure mode. A prediction card needs a failure condition. A promoted artifact can be reopened by new debt.
+
+From Kuhn, it borrows humility about background assumptions. A claim may seem obvious inside one worldview and underdeclared from another. EBP therefore asks for maps, invariants, and faithfulness reviews rather than assuming the paradigm is transparent.
+
+From Lakatos, it borrows the idea that research programs can be evaluated by whether they generate real progress or merely absorb failures with verbal patches. But EBP operates earlier and smaller. It does not require every idea to become a research program before it can be handled. A one-line idea may enter alive.
+
+EBP’s distinctive move is operational:
+
+```text
+Separate entry from promotion.
+```
+
+At entry, EBP is generous. No mandatory profile. No taxonomy. No Lean. No YAML. No stage ladder. No committee. The door is wide open.
+
+At promotion, EBP is severe. Debt must be retired. Final-truth language must be repaired. Null models, obstructions, and faithfulness concerns can reopen the ledger. The throne is guarded.
+
+This is why EBP is best understood as epistemic hygiene rather than philosophy-of-science imperialism. It is a notebook with a conscience: humble enough to let unfinished ideas live, strict enough to block unearned certainty.
+
+---
+
 # Chapter 11
 ## What If Space Is Not the Beginning?
 
@@ -541,7 +627,7 @@ Could spacetime be like that? The idea is seductive. But the Workbench immediate
 
 “Spacetime emerges from information” is not enough. What information? In what state space? Under what dynamics? How does distance arise? How does locality arise? How do light cones arise? How does curvature arise? Why does general relativity appear at large scales?
 
-TBA organizes the question through layers. It begins with candidate structures and asks whether bridges can recover the world we know. The candidate structure might be a lattice, graph, causal set, tensor network, spin network, algebraic object, or something else. E8 may appear as one candidate witness because of its exceptional symmetry and rigidity. But E8 is not the king. It is one jewel on the bench.
+EBP organizes the question through layers. It begins with candidate structures and asks whether bridges can recover the world we know. The candidate structure might be a lattice, graph, causal set, tensor network, spin network, algebraic object, or something else. E8 may appear as one candidate witness because of its exceptional symmetry and rigidity. But E8 is not the king. It is one jewel on the bench.
 
 The key is not to pick a beautiful structure and declare victory. The key is to ask what it can do that rivals cannot. If space is not the beginning, then geometry becomes a recovery target. Known physics becomes a constraint, not an inconvenience.
 
@@ -550,7 +636,7 @@ The key is not to pick a beautiful structure and declare victory. The key is to 
 **Main idea:** Spacetime may be emergent, but emergence must be operationalized.  
 **Bridge:** Candidate substrate → geometric observable → known spacetime behavior.  
 **Obstacle:** Emergence can become a slogan if the translation rule is missing.  
-**Open debt:** TBA must define explicit substrate-to-geometry bridge contracts.
+**Open debt:** EBP must define explicit substrate-to-geometry bridge contracts.
 
 ---
 # Chapter 12
@@ -568,14 +654,14 @@ What physical observable is explained? What maps from E8 structure to that obser
 
 Without those answers, E8 remains mathematics. Beautiful mathematics. Perhaps useful mathematics. Not yet physics.
 
-In TBA, E8 can be a candidate witness for rigidity, a comparison point in substrate catalogs, an inspiration for toy models, or a test of whether exceptional symmetry produces distinctive spectra or stability. But it must face rivals: generic rigid lattices, random structures, D4/triality structures, Leech-inspired structures, and tensor networks. To honor E8 is not to overclaim it. It is to make its possible role precise enough to survive criticism.
+In EBP, E8 can be a candidate witness for rigidity, a comparison point in substrate catalogs, an inspiration for toy models, or a test of whether exceptional symmetry produces distinctive spectra or stability. But it must face rivals: generic rigid lattices, random structures, D4/triality structures, Leech-inspired structures, and tensor networks. To honor E8 is not to overclaim it. It is to make its possible role precise enough to survive criticism.
 
 **Workbench Note**
 
 **Main idea:** E8 is mathematically extraordinary but not automatically physical.  
 **Bridge:** E8 structure → candidate invariant or observable.  
 **Obstacle:** Mathematical beauty can be mistaken for physical explanation.  
-**Open debt:** TBA must test E8 against rivals through explicit bridge contracts.
+**Open debt:** EBP must test E8 against rivals through explicit bridge contracts.
 
 ---
 # Chapter 13
@@ -591,14 +677,14 @@ A bridge contract should include domain, codomain, translation rule, invariant, 
 
 The bridge rule does not make speculation impossible. It makes speculation legible. It also keeps different claims from sliding into one another. A toy bridge is not a recovery program. A recovery program is not a candidate theory. A formal proof about a bridge component is not empirical confirmation. A simulation result is not a theorem. An AI proposal is not reviewed science.
 
-In TBA, progress is measured by bridge quality, not rhetorical height. A modest bridge that clearly maps a graph to a distance-like observable is more valuable than a grand claim that says “reality is information” without specifying anything.
+In EBP, progress is measured by bridge quality, not rhetorical height. A modest bridge that clearly maps a graph to a distance-like observable is more valuable than a grand claim that says “reality is information” without specifying anything.
 
 **Workbench Note**
 
 **Main idea:** A bridge must specify translation, invariant, regime, rivals, and failure modes.  
 **Bridge:** Metaphor → operational bridge contract.  
 **Obstacle:** Vague analogies can sound explanatory without carrying weight.  
-**Open debt:** TBA must turn every major claim into a bridge contract.
+**Open debt:** EBP must turn every major claim into a bridge contract.
 
 ---
 # Chapter 14
@@ -608,7 +694,7 @@ A workshop is not a throne room.
 
 In a throne room, one theory is crowned and the others kneel. In a workshop, tools hang on the wall. Some cut, some measure, some clamp, some polish, some warn. A tool is judged by what it does.
 
-TBA treats existing theories and methods as possible plugins. String theory may contribute dualities, consistency constraints, and holographic examples. Loop quantum gravity may contribute quantized geometry and spin-network ideas. Causal set theory may contribute order-before-distance thinking. Tensor networks may contribute entanglement-to-geometry mechanisms. Holography may contribute boundary/bulk reconstruction. Bohmian mechanics may contribute guidance and actualization concepts. Lattice gauge theory may contribute regulated field dynamics. Lean may contribute formal proof. AI may contribute search, extraction, and drafting.
+EBP treats existing theories and methods as possible plugins. String theory may contribute dualities, consistency constraints, and holographic examples. Loop quantum gravity may contribute quantized geometry and spin-network ideas. Causal set theory may contribute order-before-distance thinking. Tensor networks may contribute entanglement-to-geometry mechanisms. Holography may contribute boundary/bulk reconstruction. Bohmian mechanics may contribute guidance and actualization concepts. Lattice gauge theory may contribute regulated field dynamics. Lean may contribute formal proof. AI may contribute search, extraction, and drafting.
 
 A plugin is not accepted wholesale. It is assigned a job. What does it do? Where does it work? What does it assume? What does it fail to recover? What rival plugin performs the same task? What artifacts support it?
 
@@ -621,30 +707,77 @@ Local promotion prevents both cynicism and hype. A plugin can be strong for one 
 **Main idea:** Existing theories can be treated as plugins rather than enemies or kings.  
 **Bridge:** Theory/program → extracted feature → tested plugin role.  
 **Obstacle:** Plugin flexibility can become unfalsifiable if roles are vague.  
-**Open debt:** TBA must define plugin jobs, rivals, and failure conditions.
+**Open debt:** EBP must define plugin jobs, rivals, and failure conditions.
 
 ---
-# Chapter 15
-## The Workbench of Reality
+# Chapter 15  
+## The Notebook With a Conscience
 
-The Workbench is a simple idea with severe consequences. Every claim gets a card. Every card gets a status. Every status carries debt.
+EBP is a notebook with a conscience.
 
-This may sound bureaucratic. It is not. It is how imagination keeps memory. Without a Workbench, claims drift. “E8 may be useful” becomes “E8 explains reality.” “This toy model preserves information” becomes “black holes are solved.” “AI proposed a bridge” becomes “AI discovered a theory.”
+The notebook part matters first. A notebook should not make a thinker prove eligibility before writing down an idea. It should not demand a schema before imagination. It should not require a profile, a maturity stage, a Lean file, a dashboard, or a review committee before a thought can breathe.
 
-The Workbench interrupts drift. A claim card asks what exactly is being claimed. A debt ledger records what remains unpaid. A bridge contract states the map. An invariant card states what is preserved. A null model asks whether a boring rival does the same work. An obstruction record names the cliff. A faithfulness review asks whether the model really tests the claim. A prediction card writes the wound in advance. A status report remembers what happened.
+The smallest entry is prose:
 
-The Workbench does not decide final truth. It improves judgment. It can downgrade claims without destroying them. It can promote a toy result locally. It can preserve a failed idea’s surviving feature. It can separate mathematical proof from physical interpretation. It can label AI output as unreviewed.
+```text
+owner + claim
+```
 
-TBA needs this because its scope is dangerous. It touches spacetime, quantum theory, black holes, E8, AI, proof, gauge theory, and foundational mathematics. Without discipline, such scope becomes fantasy. With discipline, it becomes a research map.
+That is enough. The idea is alive.
+
+The conscience part arrives when the idea asks to be promoted. Then the protocol becomes strict. Has the map been stated? Has an invariant been named? Has a toy check been attempted where appropriate? Has a null model or rival been considered, or has uniqueness been explicitly disclaimed? Has at least one obstruction been faced? Has a faithfulness review asked whether the formalization or toy model matches the intended claim? Has final-truth language been removed?
+
+This is the difference between the door and the throne.
+
+At the door, EBP is gentle:
+
+```text
+Any idea may enter.
+No premature formalism.
+No punishment for incompleteness.
+```
+
+At the throne, EBP is brutal:
+
+```text
+No unpaid claim is promoted.
+No final-truth language survives.
+No metaphor becomes a map without work.
+No formal theorem escapes faithfulness review.
+```
+
+The old draft of this book leaned too far toward visible structures: profiles, YAML-like cards, status ladders, and report templates. Those can be useful in software or late-stage analysis, but they are not EBP’s operational soul. EBP v2.1 removes anything that does not prevent a failure worse than its overhead.
+
+The live rule is smaller:
+
+```text
+Idea.
+Debt.
+Retire debt.
+Reintroduce debt.
+Promotion requires debt paid.
+Final-truth claims block promotion.
+```
+
+This minimalism is not laziness. It is anti-bureaucracy. Accounting exists only to prevent accidental promotion. If accounting becomes the work, the protocol has failed.
+
+A claim such as “E8 may control gauge symmetries” should not be rejected at the door. It enters alive. Then it receives debt: map, invariant, toy check, null model, obstruction, faithfulness review. If someone files an obstruction about chirality or representation content, the idea is not killed. Debt carries the epistemic state.
+
+A claim such as “this proves the final structure of nature” also enters alive. But final-truth language blocks promotion until repaired. The revised version may say: “This is a candidate bridge under current debt conditions.” That is not a demotion of imagination. It is hygiene.
+
+The notebook protects creativity.
+
+The conscience protects the search.
 
 **Workbench Note**
 
-**Main idea:** The Workbench makes claims trackable, reviewable, and downgradeable.  
-**Bridge:** Raw idea → typed artifact → tested status.  
-**Obstacle:** Accounting can become busywork if it replaces testing.  
-**Open debt:** TBA must keep the Workbench light enough to use and strong enough to prevent overclaim.
+**Main idea:** EBP separates free entry from debt-paid promotion.  
+**Bridge:** Raw prose idea → debt ledger → promoted artifact under current conditions.  
+**Obstacle:** Method can become bureaucracy if accounting replaces work.  
+**Open debt:** EBP implementations must keep entry prose-first and promotion debt-based.
 
 ---
+
 # Part IV
 ## Beneath the Smooth World
 
@@ -660,16 +793,16 @@ A discrete substrate for physics faces a similar danger. It is easy to say space
 
 Nature has not made such violations obvious. Therefore a candidate substrate must pass admissibility tests. It must have enough structure to support bridges, enough symmetry or effective symmetry to hide its scaffolding, enough stability to survive perturbations, and enough recovery potential to approach known physics.
 
-TBA begins with a candidate catalog rather than a single favorite: E8-inspired structures, Leech-inspired structures, D4/triality structures, generic rigid lattices, random lattices, spin networks, causal sets, tensor networks, reversible automata, and finite relational graphs. Each candidate gets a role. Some are favored witnesses. Some are rivals. Some are boring baselines.
+EBP begins with a candidate catalog rather than a single favorite: E8-inspired structures, Leech-inspired structures, D4/triality structures, generic rigid lattices, random lattices, spin networks, causal sets, tensor networks, reversible automata, and finite relational graphs. Each candidate gets a role. Some are favored witnesses. Some are rivals. Some are boring baselines.
 
-The ants on the crystal road teach the first substrate obstruction: if the road has seams, why do the ants not see them? TBA must answer not by hiding the seams verbally, but by showing how effective smoothness, isotropy, locality, and relativistic behavior can arise.
+The ants on the crystal road teach the first substrate obstruction: if the road has seams, why do the ants not see them? EBP must answer not by hiding the seams verbally, but by showing how effective smoothness, isotropy, locality, and relativistic behavior can arise.
 
 **Workbench Note**
 
 **Main idea:** Candidate substrates must explain why hidden structure does not visibly break known symmetries.  
 **Bridge:** Discrete/relational substrate → smooth effective geometry.  
 **Obstacle:** Preferred directions, locality collapse, and visible seams.  
-**Open debt:** TBA must define admissibility criteria for candidate substrates.
+**Open debt:** EBP must define admissibility criteria for candidate substrates.
 
 ---
 # Chapter 17
@@ -683,7 +816,7 @@ A simple model might say: at each tick, every node updates according to a rule. 
 
 These questions do not forbid toy models. They clarify their status. A finite automaton can be useful even if its update step is not yet physical time. It can test reversibility, information preservation, propagation, or coarse-graining. But it should not claim to have derived time unless it explains how physical temporal observables arise.
 
-TBA treats dynamics as a plugin layer. Possible plugins include spin-network transitions, spin foams, causal-set growth, tensor-network evolution, Bohmian guidance, lattice gauge dynamics, reversible cellular automata, and constraint-based histories.
+EBP treats dynamics as a plugin layer. Possible plugins include spin-network transitions, spin foams, causal-set growth, tensor-network evolution, Bohmian guidance, lattice gauge dynamics, reversible cellular automata, and constraint-based histories.
 
 The Workbench response is to separate toy time from physical time. Toy time may be useful for computation. Physical time must be recovered through observables, records, clocks, and symmetry.
 
@@ -692,7 +825,7 @@ The Workbench response is to separate toy time from physical time. Toy time may 
 **Main idea:** Dynamics is necessary, but background time may be an illicit assumption.  
 **Bridge:** Local transition rule → effective temporal behavior.  
 **Obstacle:** Toy update steps can masquerade as physical time.  
-**Open debt:** TBA must distinguish computational evolution from recovered physical time.
+**Open debt:** EBP must distinguish computational evolution from recovered physical time.
 
 ---
 # Chapter 18
@@ -704,7 +837,7 @@ The word “emergence” can inspire. It can also conceal. In physics, emergence
 
 A gas gives a clear lesson. Temperature is not a property of one molecule. It is a collective property of many. But the bridge is not magic. Statistical mechanics explains how microscopic motion relates to macroscopic thermodynamics.
 
-TBA needs the same standard. Layer 2 is bridge mechanisms and coarse-graining. Possible mechanisms include spectral lifting, entanglement renormalization, holographic reconstruction, theta-series dictionaries, extremal packing or coding correspondences, domain-wall projection, actualization/guidance, and effective continuum limits. Each may be useful. None is magic.
+EBP needs the same standard. Layer 2 is bridge mechanisms and coarse-graining. Possible mechanisms include spectral lifting, entanglement renormalization, holographic reconstruction, theta-series dictionaries, extremal packing or coding correspondences, domain-wall projection, actualization/guidance, and effective continuum limits. Each may be useful. None is magic.
 
 If the desired continuum equation is imposed at the top, it has not been derived. If coarse-graining washes away the very structure the theory depends on, the bridge fails. Smoothness alone is not enough. The right smooth behavior must appear: local, stable, field-like, quantum-consistent, and empirically constrained.
 
@@ -713,7 +846,7 @@ If the desired continuum equation is imposed at the top, it has not been derived
 **Main idea:** Emergence and coarse-graining require explicit preservation rules.  
 **Bridge:** Microstructure → coarse-grained observable → effective law.  
 **Obstacle:** “Emergence” can hide arbitrary averaging or built-in results.  
-**Open debt:** TBA must define bridge mechanisms with invariants and failure modes.
+**Open debt:** EBP must define bridge mechanisms with invariants and failure modes.
 
 ---
 # Chapter 19
@@ -725,7 +858,7 @@ This is recovery. Newtonian mechanics must return in the slow, weak-gravity limi
 
 Recovery is not optional. It prevents speculative theories from floating away.
 
-TBA organizes recovery targets: Lorentz behavior, semiclassical gravity, quantum theory and unitarity, gauge symmetry and matter structure, black-hole entropy, continuum effective behavior, observer records, and thermodynamics.
+EBP organizes recovery targets: Lorentz behavior, semiclassical gravity, quantum theory and unitarity, gauge symmetry and matter structure, black-hole entropy, continuum effective behavior, observer records, and thermodynamics.
 
 A candidate may begin with a toy bridge, but eventually it must climb toward recovery. A graph-distance model may support a distance-like observable, but it must later face dimension, locality, propagation, Lorentz symmetry, and curvature. An E8-inspired structure may show spectral regularity, but it must later face gauge groups, chirality, anomaly cancellation, masses, and empirical constraints.
 
@@ -736,7 +869,7 @@ Recovery also prevents cheating. If a model claims to derive general relativity 
 **Main idea:** New theories must recover known successful physics in proper regimes.  
 **Bridge:** Candidate framework → known physical limits.  
 **Obstacle:** A model can assume the target and call it recovered.  
-**Open debt:** TBA must create recovery reports for each major physics target.
+**Open debt:** EBP must create recovery reports for each major physics target.
 
 ---
 # Chapter 20
@@ -748,7 +881,7 @@ Whatever quantum theory means, the world we experience contains definite records
 
 Decoherence gives part of the answer. A quantum system becomes entangled with its environment, and interference between certain alternatives becomes effectively inaccessible. But decoherence alone does not settle every interpretive question.
 
-Different interpretations offer different plugins: many-worlds, collapse models, Bohmian mechanics, relational approaches, QBism, decoherence, and quantum Darwinism. TBA does not need to decide the interpretation at the start. It needs to ask what any deeper framework must recover: stable records, probabilities, observer-relative descriptions where appropriate, and the transition from microscopic possibility to macroscopic fact.
+Different interpretations offer different plugins: many-worlds, collapse models, Bohmian mechanics, relational approaches, QBism, decoherence, and quantum Darwinism. EBP does not need to decide the interpretation at the start. It needs to ask what any deeper framework must recover: stable records, probabilities, observer-relative descriptions where appropriate, and the transition from microscopic possibility to macroscopic fact.
 
 This is Layer 4: observers, records, and measurement. The word “observer” is dangerous. It can suggest consciousness where only interaction is needed, or erase the real problem of definite records. The Workbench asks more concrete questions: what counts as a record? How is it stored? How stable is it? Who or what can access it? How do probabilities attach to possible records?
 
@@ -759,7 +892,7 @@ A theory that cannot explain the click cannot explain physics, because experimen
 **Main idea:** Physics must explain stable records, not only abstract states.  
 **Bridge:** Quantum possibilities → measurement interactions → durable records.  
 **Obstacle:** Interpretations can reuse the same words while meaning different things.  
-**Open debt:** TBA must define observer and record roles without overclaiming consciousness.
+**Open debt:** EBP must define observer and record roles without overclaiming consciousness.
 
 ---
 # Chapter 21
@@ -773,14 +906,14 @@ Layer 5 contains stress tests, predictions, formal checks, rivals, obstructions,
 
 Formal proof is also a wound. It forces definitions to become exact. A proof attempt may reveal that a claim was not even well-formed. AI evaluation must also wound the machine. A good AI physics assistant should be tested on invariant extraction, false-bridge detection, executable specification, theorem-obligation drafting, and epistemic humility.
 
-TBA itself must bleed. If its Workbench becomes too cumbersome, it should be simplified. If E8-inspired candidates lose to generic rivals, they should be downgraded. If predictions fail, status should change. The goal is not to protect TBA from criticism. The goal is to make it criticizable in the right ways.
+EBP itself must bleed. If its Workbench becomes too cumbersome, it should be simplified. If E8-inspired candidates lose to generic rivals, they should be downgraded. If predictions fail, status should change. The goal is not to protect EBP from criticism. The goal is to make it criticizable in the right ways.
 
 **Workbench Note**
 
 **Main idea:** Claims must expose how they can fail or be weakened.  
 **Bridge:** Speculative claim → stress test → status update.  
 **Obstacle:** Flexible frameworks can evade falsification by changing language.  
-**Open debt:** TBA must write prediction cards and obstruction records before promotion.
+**Open debt:** EBP must write prediction cards and obstruction records before promotion.
 
 ---
 # Part V
@@ -789,29 +922,62 @@ TBA itself must bleed. If its Workbench becomes too cumbersome, it should be sim
 New tools have entered the room: proof assistants, AI systems, huge libraries, formal languages, and simulation engines. They can help. They can also mislead. The Workbench must welcome machines without kneeling to them.
 
 ---
-# Chapter 22
+# Chapter 22  
 ## The Machine That Refuses to Bluff
 
-A proof assistant is a machine that refuses to be charmed. It does not care whether prose is elegant, whether the argument sounds obvious, or whether the author is famous. It asks whether the statement follows from definitions and assumptions by permitted steps.
+A proof assistant is a machine that refuses to be charmed.
 
-Lean is an open-source programming language and proof assistant used for formalizing mathematics and verified code.[^7] Its mathematical ecosystem, mathlib, is a large community-driven library of formalized mathematics.[^8]
+It does not care whether the prose is elegant. It does not care whether the argument sounds obvious. It does not care whether the author is famous. It asks whether the statement follows from the definitions and assumptions by permitted steps.
 
-For TBA, such tools are valuable because speculative frameworks often hide ambiguity. A claim that sounds precise in prose may collapse when formalized. What is a graph? What is distance? What is preservation? What is reversibility? What exactly is being proved?
+Lean is one such system: an open-source programming language and proof assistant used for formalizing mathematics and verified code.[^7] Its mathematical ecosystem, mathlib, is a large community-driven library of formalized mathematics.[^8]
 
-Formalization forces the question. But proof assistants have a boundary. Lean can check that a theorem follows from assumptions. It cannot by itself decide whether those assumptions describe nature.
+EBP treats Lean as an instrument, not the door.
 
-This is the proof boundary. A theorem about shortest-path distance in an undirected graph may be perfectly true. It does not prove that physical space is a graph. A theorem about reversible dynamics may be exact. It does not prove that black holes preserve information in our universe.
+This is a crucial revision. An idea does not need Lean to enter. The canonical entry artifact is prose. Lean becomes important when an idea tries to pay debt through definitions, theorem obligations, executable toy checks, counterexamples, or no-go results.
 
-The machine that refuses to bluff is a gift. It teaches humility: define your terms, state your assumptions, show the steps. Physics then asks the next question: does this formal structure touch the world?
+Formalization forces clarity. A claim that sounds precise in prose may collapse when formalized. What is a graph? What is distance? What is preservation? What is reversibility? What exactly is being proved?
+
+But proof assistants have a boundary. Lean can check that a theorem follows from assumptions. It cannot by itself decide whether those assumptions describe nature.
+
+This is the proof boundary.
+
+```mermaid
+flowchart LR
+    A[Formal definitions] --> B[Formal theorem]
+    B --> C[Machine-checked proof]
+    C --> D[Valid under assumptions]
+    D -. still needs .-> E[Faithfulness review]
+    E -. still needs .-> F[Physical bridge]
+    F -. still needs .-> G[Recovery or empirical contact]
+```
+
+The book’s posture here is Gödel-humble. Formal proof is one of humanity’s great tools, but no formal tool is a substitute for every kind of judgment. A theorem about shortest-path distance in an undirected graph may be perfectly true. It does not prove that physical space is a graph. A theorem about reversible dynamics may be exact. It does not prove that black holes preserve information in our universe. A theorem about E8 sphere packing may be a triumph of mathematics. It does not prove that E8 is physical reality.
+
+This boundary does not diminish formal proof. It gives formal proof its proper dignity.
+
+In EBP, Lean helps retire debt by turning claims into definitions, structures, inductive types, theorem stubs, proofs, counterexamples, no-go results, and executable finite checks. But every Lean-based debt payment that supports promotion must face the faithfulness question:
+
+```text
+Does the formalization match the intended claim?
+```
+
+If contested, promotion waits. The contesting party must state the mismatch. The owner may repair, revise, or accept the block.
+
+The machine that refuses to bluff is a gift. It says: define your terms, state your assumptions, show the steps.
+
+Then physics asks the next question: does this formal structure touch the world?
+
+That question cannot be answered by syntax alone.
 
 **Workbench Note**
 
-**Main idea:** Proof assistants can check formal claims but not physical interpretation.  
-**Bridge:** Informal claim → formal theorem → checked proof.  
-**Obstacle:** Formal truth under assumptions can be mistaken for physical truth.  
-**Open debt:** TBA must separate formal proof obligations from reality-contact claims.
+**Main idea:** Lean is not the entry gate; it is a strong promotion instrument.  
+**Bridge:** Prose claim → formal obligation → machine-checked result.  
+**Obstacle:** Formal validity can be mistaken for physical truth.  
+**Open debt:** EBP must pair Lean-based debt retirement with faithfulness review.
 
 ---
+
 # Chapter 23
 ## The Jewel That Was Proved Twice
 
@@ -830,7 +996,7 @@ These developments are important, but they should be read carefully. AI-assisted
 **Main idea:** E8 sphere packing shows the power of proof and formalization.  
 **Bridge:** Mathematical theorem → formal proof → possible bridge material.  
 **Obstacle:** Verified mathematics can be mistaken for verified physics.  
-**Open debt:** TBA must state any physical E8 claim as a separate bridge with rivals.
+**Open debt:** EBP must state any physical E8 claim as a separate bridge with rivals.
 
 ---
 # Chapter 24
@@ -851,30 +1017,62 @@ AI can be extremely useful if the task is shaped correctly. Do not ask it to inv
 **Main idea:** AI can accelerate research but must begin as unreviewed assistance.  
 **Bridge:** AI output → reviewed artifact → tested status.  
 **Obstacle:** Fluency can mimic insight without structure.  
-**Open debt:** TBA must evaluate AI on bridge discipline, not only answer generation.
+**Open debt:** EBP must evaluate AI on bridge discipline, not only answer generation.
 
 ---
-# Chapter 25
+# Chapter 25  
 ## The Conjecture Refinery
 
-A raw idea is not a sin. Every theory begins somewhere: a question, analogy, unexpected pattern, mathematical object, failed experiment, or strange thought experiment. The danger is not the seed. The danger is calling it a tree.
+A raw idea is not a sin.
 
-The conjecture refinery turns raw ideas into structured claims. It does not guarantee truth. It prevents premature promotion.
+Every theory begins somewhere: a question, an analogy, an unexpected pattern, a mathematical object, a failed experiment, a strange thought experiment. Any of these may become a seed. EBP’s first duty is to let the seed enter.
 
-A claim enters. It is typed: historical, mathematical, physical, computational, empirical, interpretive, or methodological. Its assumptions are listed. Its evidence status is marked. Its debt is attached. Then the refinery asks for a bridge. If the claim crosses from one domain to another, how? If it invokes an invariant, what is preserved? If it uses a toy model, what does the toy actually test? If it praises a beautiful structure, what rival structures have been compared?
+The danger is not the seed. The danger is calling it fruit.
 
-The refinery also protects failure. A failed claim may still leave behind useful residue: an invariant, an obstruction, a toy method, a null model, a better definition, a proof obligation, or a warning.
+The conjecture refinery is EBP’s minimal pipeline:
 
-TBA is not a single bet. It is a method for processing bets. The refinery’s rule is simple: ideas enter free; promotion costs debt.
+```text
+capture → clarify → debt → test → promote
+```
+
+Capture is cheap. One line is enough. “Boundary capacity may unify area and entropy.” “E8 structure may control Standard Model gauge symmetries.” “Spacetime may be recoverable from relational propagation.” These claims do not need to be complete to enter. They enter alive.
+
+Clarification is creative, not clerical. The thinker adds prose, sketches, equations, metaphors, sources, or rough maps. The system should not force a taxonomy before the idea has shape.
+
+Debt is the conscience. The default debt is small and brutal:
+
+```text
+needMap
+needInvariant
+needToyCheck
+needNullModel
+needObstruction
+needFaithfulnessReview
+```
+
+Debt does not kill. It only blocks promotion.
+
+Testing retires debt one useful move at a time. State the domain, codomain, and translation rule. Name an invariant. Run a finite toy check. Provide a null model, or explicitly disclaim uniqueness. State one obstruction and its consequence. Ask whether the formalization matches the intended claim.
+
+Promotion is binary. Either the current operational debt is retired and final-truth language is absent, or the idea remains alive with debt. Promotion does not mean truth. It means the artifact is clean enough to carry forward under current conditions.
+
+New evidence creates new debt. A promoted claim can return to the Workbench if a stronger null model appears, a new obstruction is filed, or a faithfulness problem is found. This is not embarrassment. It is antifragile epistemology.
+
+The refinery’s purpose is not to produce paperwork. It is to make overclaim harder while keeping imagination alive.
+
+Ideas enter free.
+
+Promotion costs debt.
 
 **Workbench Note**
 
-**Main idea:** Raw ideas become research artifacts through staged refinement.  
-**Bridge:** Seed idea → typed claim → tested status.  
-**Obstacle:** Strong language can promote a claim before evidence arrives.  
-**Open debt:** TBA must make debt visible without letting accounting replace research.
+**Main idea:** EBP’s refinery is the minimal pipeline from idea to promoted artifact.  
+**Bridge:** One-line claim → debt-paying work → current promotion status.  
+**Obstacle:** A pipeline can become a bureaucracy if every step becomes mandatory at entry.  
+**Open debt:** Implementations must infer and retire debt seamlessly, not force clerical labor.
 
 ---
+
 # Part VI
 ## First Crossings
 
@@ -886,7 +1084,7 @@ The first bridge should be small. A framework that begins by solving everything 
 
 A grand theory wants a grand beginning. Resist that urge. Do not begin by claiming to derive spacetime, matter, gravity, quantum theory, consciousness, and black holes from one beautiful structure. Begin with one bridge small enough to inspect.
 
-For TBA, an example first bridge is `finite relational structure → distance-like observable`. This does not prove spacetime. It tests whether a candidate structure can support one primitive feature needed for later geometry recovery.
+For EBP, an example first bridge is `finite relational structure → distance-like observable`. This does not prove spacetime. It tests whether a candidate structure can support one primitive feature needed for later geometry recovery.
 
 The bridge might use a graph. Nodes represent relational units. Edges represent adjacency. A distance-like observable may be defined by shortest-path length, propagation time, spectral distance, or another rule. Then an invariant is measured: neighborhood growth, distance distribution, perturbation stability, or spectral behavior.
 
@@ -898,10 +1096,10 @@ The first bridge is not about glory. It is about calibration.
 
 **Workbench Note**
 
-**Main idea:** TBA should begin with inspectable bridge tests, not cosmic claims.  
+**Main idea:** EBP should begin with inspectable bridge tests, not cosmic claims.  
 **Bridge:** Finite structure → distance-like observable.  
 **Obstacle:** Small toy success can be inflated into spacetime emergence.  
-**Open debt:** TBA must run first-crossing toy checks with null models.
+**Open debt:** EBP must run first-crossing toy checks with null models.
 
 ---
 # Chapter 27
@@ -922,7 +1120,7 @@ Each toy check should state what is omitted: real spacetime, quantum field theor
 **Main idea:** Toy models test narrow mechanisms under visible assumptions.  
 **Bridge:** Finite toy structure → measurable bridge behavior.  
 **Obstacle:** Toy models omit most of the real physics they may gesture toward.  
-**Open debt:** TBA must write faithfulness reviews for every toy result.
+**Open debt:** EBP must write faithfulness reviews for every toy result.
 
 ---
 # Chapter 28
@@ -943,7 +1141,7 @@ If the boring rival wins, the favored candidate is downgraded for that task. If 
 **Main idea:** Null models reveal whether a beautiful candidate is actually special.  
 **Bridge:** Favored explanation ↔ boring rival comparison.  
 **Obstacle:** Weak rivals create false confidence.  
-**Open debt:** TBA must match rivals fairly before promotion.
+**Open debt:** EBP must match rivals fairly before promotion.
 
 ---
 # Chapter 29
@@ -951,7 +1149,7 @@ If the boring rival wins, the favored candidate is downgraded for that task. If 
 
 A good map marks cliffs. Speculative physics needs obstruction maps for the same reason.
 
-TBA’s obstruction library should include Lorentz recovery, locality, stable dimension, continuum limit, quantum amplitudes, Born rule, measurement records, gauge symmetry, chirality, anomaly cancellation, Yang–Mills mass gap confusion, black-hole information, thermodynamic arrow, empirical bounds, parameter fitting, and semantic illusion.
+EBP’s obstruction library should include Lorentz recovery, locality, stable dimension, continuum limit, quantum amplitudes, Born rule, measurement records, gauge symmetry, chirality, anomaly cancellation, Yang–Mills mass gap confusion, black-hole information, thermodynamic arrow, empirical bounds, parameter fitting, and semantic illusion.
 
 Each obstruction records why the problem matters, whether the claim faces it, whether it avoids it by assumption, current response, severity, and next action. Lorentz recovery matters because hidden substrates often introduce preferred frames. Locality matters because random connectivity can make everything close to everything else. Gauge symmetry matters because matter and forces are organized by gauge structure.
 
@@ -964,7 +1162,7 @@ A cliff is not a refutation. It is a location where debt concentrates. A theory 
 **Main idea:** Obstruction maps identify known failure points before claims are promoted.  
 **Bridge:** Candidate claim → known cliff → required response.  
 **Obstacle:** A framework can evade hard problems by renaming them.  
-**Open debt:** TBA must maintain obstruction records for each major claim.
+**Open debt:** EBP must maintain obstruction records for each major claim.
 
 ---
 # Chapter 30
@@ -985,53 +1183,163 @@ Prediction cards prevent post-hoc victory. A theory that cannot write any wound 
 **Main idea:** Prediction cards make claims risk failure before results are known.  
 **Bridge:** Claim → expected observable → failure condition.  
 **Obstacle:** Post-hoc interpretation can make any result look supportive.  
-**Open debt:** TBA must attach prediction cards to promoted bridge claims.
+**Open debt:** EBP must attach prediction cards to promoted bridge claims.
 
 ---
-# Chapter 31
+# Chapter 31  
 ## The First Thirty Days
 
 A grand research program becomes real only when it has a first month.
 
-The first thirty days of TBA should not attempt to solve quantum gravity. They should build the Workbench and run one small cycle. Begin with a research profile that forbids final-theory language and defines allowed outputs: claim cards, bridge contracts, invariant cards, toy checks, null models, obstruction records, faithfulness reviews, prediction cards, status reports, and formal proof obligations.
+The first thirty days of EBP should not attempt to solve quantum gravity. They should build the smallest working notebook with a conscience.
 
-Next comes the claim registry. The first claim may be: “A finite relational structure may support a distance-like observable through an explicit translation rule.” Then comes the debt ledger: map, invariant, toy check, null model, obstruction, faithfulness review, prediction card, and perhaps formalization.
+The first implementation should feel almost embarrassingly small. It needs only five operations:
 
-Then define the candidate catalog: matched random graph, regular lattice graph, generic rigid lattice, E8-inspired finite structure. Define the bridge: finite graph to distance-like observable. Define the invariant: neighborhood growth stability. Define the null model. Define the toy check. Define failure conditions.
+```text
+ebp capture
+ebp status
+ebp retire
+ebp add-debt
+ebp promote
+```
 
-Then run the toy check, write the obstruction record, write the faithfulness review, and produce the first status report. If nothing is promoted, the month may still succeed. The goal is traceability.
+Everything else can wait.
+
+No dashboard before artifacts. No mandatory profiles. No stage bureaucracy. No scoring system. No formalization-cost estimates. No reviewer hierarchy. No YAML-first registry. No large reports unless they retire debt.
+
+Day one begins with capture:
+
+```text
+ebp capture "Gani" "Boundary capacity may unify area and entropy."
+```
+
+The idea enters alive and unpromoted. The protocol attaches default debt: map, invariant, toy check, null model, obstruction, and faithfulness review. The next move should be small enough to do now: define the candidate invariant in one sentence.
+
+Day two may retire one debt:
+
+```text
+Invariant: boundary distinguishability capacity I(B).
+```
+
+This does not prove the idea. It retires or partially retires `needInvariant`. The next move becomes: define the map.
+
+Another day may state:
+
+```text
+Area, state count, spin-boundary labels, and code-cut capacity each map into I(B) by capacity-preserving or capacity-scaling maps.
+```
+
+That begins to retire `needMap`.
+
+Another day may add a null model:
+
+```text
+A tensor-network-only explanation may reproduce the same capacity behavior.
+```
+
+Or the owner may explicitly say:
+
+```text
+I do not claim uniqueness. I only claim compatibility worth exploring.
+```
+
+That may retire early null-model debt for a modest version of the claim.
+
+Another day may file an obstruction:
+
+```text
+The bridge may fail if the maps preserve only chosen normalization rather than invariant structure.
+```
+
+Another day may ask the faithfulness question:
+
+```text
+Does the Lean toy invariant actually represent the intended boundary-capacity claim?
+```
+
+If contested, promotion waits. No silent veto is allowed; the mismatch must be stated.
+
+The month should end with movement, not ceremony. At least one idea captured, one debt retired, one obstruction filed, one null model named, one toy check run, one faithfulness issue found, one final-truth phrase repaired, or one idea promoted or unpromoted.
+
+If a session produces none of these, it was probably entropy.
+
+The first thirty days are not about a beautiful dashboard. They are about a living ledger.
 
 **Workbench Note**
 
-**Main idea:** The first month should operationalize one small Workbench cycle.  
-**Bridge:** Vision → artifacts → first toy test.  
-**Obstacle:** Ambition can pull the project toward premature grand claims.  
-**Open debt:** TBA must complete a first status report before expanding.
+**Main idea:** The first implementation should do only capture, status, retire, add-debt, and promote.  
+**Bridge:** Prose idea → automatic debt → next smallest useful move.  
+**Obstacle:** Software ambition can reintroduce the bureaucracy EBP removed.  
+**Open debt:** Build the smallest tool that keeps promotion criteria explicit and accounting invisible.
 
 ---
+
 # Part VII
 ## What Survival Would Mean
 
 A claim survives by earning status. It does not leap from idea to truth. It climbs, falls, mutates, or retires.
 
 ---
-# Chapter 32
-## From Seed to Serious Contender
+# Chapter 32  
+## Alive, Promoted, and Reopened
 
-Not all claims deserve the same status. A seed is a raw idea. It may be exciting, strange, beautiful, or vague. It deserves capture, not belief. A toy model tests a narrow mechanism. It deserves attention, not inflation. A checked model has survived some internal tests, null models, or formal checks. A bridge candidate has an explicit translation rule, invariant, regime, rival, and failure mode. A recovery program attempts to reproduce known physics in a specified domain. A framework coordinates many claims and bridges. A candidate theory proposes a coherent physical picture with nontrivial recovery and prediction. A serious contender survives strong tests, rivals, recovery demands, predictions, and empirical or formal support.
+The old version of this book used a maturity ladder: seed, toy model, checked model, bridge candidate, recovery program, framework, candidate theory, serious contender.
 
-TBA itself should be placed carefully. In this book, it is not a candidate theory of nature. It is a framework and Workbench discipline under development. Some of its components may be seeds. Some may be toy models. Some may become bridge candidates. The whole architecture remains below serious contender status until it achieves major recovery, rival resistance, and prediction.
+That ladder was pedagogically useful, but it was also dangerous. Ladders become bureaucracy. Bureaucracy becomes gatekeeping. Gatekeeping begins to punish unfinished ideas at the door.
 
-Maturity status allows partial progress. An E8-inspired candidate may be locally promoted for one spectral toy result and downgraded for geometry recovery. Status is local. This is how the Workbench avoids both cynicism and hype.
+EBP v2.1 removes stage bureaucracy from the protocol.
+
+The formal operational state is simpler:
+
+```text
+Every idea is alive.
+Some ideas are promoted.
+Promoted ideas can be reopened by new debt.
+```
+
+That is enough.
+
+An idea is alive because EBP does not kill ideas merely for being vague, early, dormant, speculative, unformalized, or unpaid. Alive does not mean active. Alive does not mean prioritized. Alive does not mean true. It means the idea remains in the room.
+
+An idea is promoted only when its current operational debt is retired and it contains no final-truth language. Promotion means research hygiene, not metaphysical victory. A promoted artifact may still be wrong, incomplete, physically unfaithful, empirically false later, superseded by a better null model, or reopened by a new obstruction.
+
+A promoted idea can be reopened. This is one of EBP’s most important features. New evidence creates new debt. A stronger rival explanation, a counterexample, a no-go theorem, a failed toy check, a faithfulness mismatch, or a new empirical constraint can return the idea to the Workbench.
+
+Reopening is not death.
+
+It is the ledger doing its job.
+
+Informal language may still be useful. A reader may call an idea a seed, a toy check, a candidate bridge, or a recovery program. These words help orient discussion. They carry no protocol weight. They do not determine promotion. They should never become mandatory stages.
+
+```mermaid
+flowchart LR
+    A[Alive with debt] -->|retire current debt + remove final-truth language| P[Promoted]
+    P -->|new obstruction / null model / faithfulness issue| A
+    A -. may become dormant .-> D[Dormant but alive]
+    D -. next useful move .-> A
+```
+
+This binary structure is not simplistic. It is protective. It keeps the door open while guarding the throne.
+
+The central question is not “What stage is this idea in?”
+
+The central question is:
+
+```text
+Is this idea alive with debt, or promoted under current debt conditions?
+```
+
+Everything else is commentary.
 
 **Workbench Note**
 
-**Main idea:** Claims mature through earned stages rather than sudden belief.  
-**Bridge:** Evidence and tests → local maturity status.  
-**Obstacle:** A claim can borrow status from nearby stronger claims.  
-**Open debt:** TBA must track maturity separately for each claim and bridge.
+**Main idea:** EBP uses alive/promoted/reopened, not a stage ladder.  
+**Bridge:** Unfinished idea → debt-paid artifact → living ledger.  
+**Obstacle:** Pedagogical labels can harden into bureaucracy.  
+**Open debt:** Use “seed,” “toy,” and “candidate” only as informal orientation language.
 
 ---
+
 # Chapter 33
 ## When a Theory Fails Well
 
@@ -1043,20 +1351,20 @@ The ether failed as a physical medium, but fields survived. Newtonian absolutes 
 
 The elephant principle depends on good failure. If we discard failed theories wholesale, we lose surviving features. If we worship them wholesale, we keep failed interpretations. The Workbench asks what survived cross-constraint testing.
 
-A failed TBA bridge might teach that shortest-path graph distance is too artificial. Good. Try propagation-derived distance. A failed E8 toy might teach that rigidity alone is not enough. Good. Compare spectral structure. Failure should update artifacts: claim card, debt ledger, obstruction record, faithfulness review, and status report.
+A failed EBP bridge might teach that shortest-path graph distance is too artificial. Good. Try propagation-derived distance. A failed E8 toy might teach that rigidity alone is not enough. Good. Compare spectral structure. Failure should update artifacts: claim card, debt ledger, obstruction record, faithfulness review, and status report.
 
 **Workbench Note**
 
 **Main idea:** Failed theories can leave surviving features and useful constraints.  
 **Bridge:** Failed claim → extracted survivor → future tool.  
 **Obstacle:** People either discard too much or preserve too much.  
-**Open debt:** TBA must record failure in ways that future work can reuse.
+**Open debt:** EBP must record failure in ways that future work can reuse.
 
 ---
 # Chapter 34
 ## If the Bridges Converge
 
-What would it mean for TBA to gain trust? Not one spectacular claim. Not one beautiful diagram. Not one AI-generated manuscript. Not one toy model. Not even one formal theorem.
+What would it mean for EBP to gain trust? Not one spectacular claim. Not one beautiful diagram. Not one AI-generated manuscript. Not one toy model. Not even one formal theorem.
 
 Trust would come from convergence. Independent bridges would begin to point in compatible directions. A substrate-to-distance bridge would support stable locality. A propagation bridge would support effective light cones. A coarse-graining bridge would preserve relevant invariants. A quantum bridge would recover amplitudes and probabilities. A geometry bridge would recover curvature in a controlled regime. A matter bridge would begin to face gauge structure. A black-hole bridge would account for entropy and information in a way rivals fail to match.
 
@@ -1071,7 +1379,7 @@ A converging framework should also become less arbitrary. Parameters should not 
 **Main idea:** Trust grows when independent bridges constrain and support one another.  
 **Bridge:** Local bridge successes → cross-constraint convergence.  
 **Obstacle:** A framework can look coherent by being too flexible.  
-**Open debt:** TBA must show convergence among bridges, not isolated anecdotes.
+**Open debt:** EBP must show convergence among bridges, not isolated anecdotes.
 
 ---
 # Part VIII
@@ -1089,7 +1397,7 @@ Newton touched law. Maxwell touched field. Einstein touched geometry. Quantum th
 
 This book has argued that the next stage of theory-building may require a new habit: not merely inventing theories, but comparing contacts. The goal is not to collect grand stories. It is to extract surviving features and build bridges between them.
 
-TBA is one proposed Workbench for that task. It asks every claim to be typed, every bridge specified, every invariant named, every rival invited, every obstruction recorded, every prediction given a failure condition, every proof kept within its boundary, and every AI output begun as unreviewed.
+EBP is one proposed Workbench for that task. It asks every claim to be typed, every bridge specified, every invariant named, every rival invited, every obstruction recorded, every prediction given a failure condition, every proof kept within its boundary, and every AI output begun as unreviewed.
 
 This is not glamorous in the usual sense. It does not offer instant finality. But it offers something better: a way for wonder to become durable.
 
@@ -1100,7 +1408,7 @@ When someone proposes that spacetime emerges, the Workbench asks for the bridge.
 **Main idea:** Theories should be treated as partial contacts with a deeper reality.  
 **Bridge:** Surviving features from theories → disciplined bridge architecture.  
 **Obstacle:** The desire for finality can crown a partial touch too soon.  
-**Open debt:** TBA must prove its usefulness through actual bridge work.
+**Open debt:** EBP must prove its usefulness through actual bridge work.
 
 ---
 # Chapter 36
@@ -1172,199 +1480,379 @@ The appendices turn the book’s habits into tools. They are optional for narrat
 
 ---
 
-# Appendix A
-## A Minimal Workbench Manual
+# Appendix A  
+## The Minimal Elephant Bridge Protocol
 
-The Workbench keeps bold ideas reviewable. Its rule is simple:
+EBP v2.1 is the smallest practical form of the Elephant Bridge Protocol.
+
+Its doctrine is:
 
 ```text
 Ideas enter free.
 Promotion costs debt.
+Debt does not kill.
+Debt is forever payable.
+New evidence creates new debt.
+No final-truth claim may be promoted.
+Accounting must never become the work.
 ```
 
-## Claim Card
+The protocol exists to protect two things simultaneously: imagination and epistemic integrity. Any idea may enter. No idea may be promoted while its unpaid obligations remain hidden.
 
-```yaml
-claim_id: TBA-0001
-title: Relational structure may support distance-like observables
-claim_statement: >
-  A finite relational structure may support a distance-like observable through
-  an explicit translation rule.
-claim_type: bridge / toy-model / speculative precursor
-maturity_status: Seed
-evidence_status: human_hypothesis
-assumptions:
-  - relational structure can be represented as a finite graph
-  - distance-like behavior is relevant to geometry recovery
-not_claiming:
-  - spacetime has emerged
-  - general relativity has been recovered
-  - the graph is physically real
-current_debt:
-  - needMap
-  - needInvariant
-  - needToyCheck
-  - needNullModel
-  - needObstruction
-  - needFaithfulnessReview
-next_action: Create a bridge contract.
-```
+## A.1 The Only Mandatory Entry
 
-## Maturity Status
+The only mandatory entry is an idea.
 
 ```text
-Seed
-Toy Model
-Checked Model
-Bridge Candidate
-Recovery Program
-Framework
-Candidate Theory
-Serious Contender
-Downgraded
-Obstructed
-Retired
+owner + claim
 ```
 
-## Evidence Status
+Optional:
 
 ```text
-unreviewed_ai_suggestion
-human_hypothesis
-literature_claim
-mathematical_definition
-proof_sketch
-formal_proof
-simulation_result
-toy_model_result
-post_hoc_fit
-predeclared_prediction
-empirical_observation
-experimental_result
-failed_test
-reviewed_artifact
+source
+born timestamp
+notes
 ```
 
-## Debt Ledger
+No map required. No invariant required. No classification required. No Lean required. No null model required. No review required. Prose is canonical at entry.
 
-```yaml
-claim_id: TBA-0001
-debt_item: needNullModel
-why_it_matters: >
-  The favored candidate may not be special unless it beats a fair rival.
-required_artifact: Null Model
-status: unpaid
-next_action: Compare against a matched random graph.
+## A.2 The Minimum Pipeline
+
+```text
+capture → clarify → debt → test → promote
 ```
 
-## Bridge Contract
+**Capture:** one line is enough.  
+**Clarify:** add prose, sketches, equations, metaphors, sources, or rough maps.  
+**Debt:** the idea receives visible unpaid obligations.  
+**Test:** retire one debt at a time.  
+**Promote:** promotion is allowed only when current debt is retired and final-truth language is absent.
 
-```yaml
-bridge_id: BRIDGE-0001
-domain: finite graph
-codomain: distance-like observable
-translation_rule: shortest-path distance
-invariant: neighborhood growth stability
-regime: finite toy structures
-rivals:
-  - matched random graph
-  - regular lattice
-failure_modes:
-  - locality collapse
-  - rival performs equally well
-  - distance rule imposes desired behavior
-evidence_status: proposed
+## A.3 The Lean-Shaped Kernel
+
+Lean is not required for entry. Lean-shaped structures are useful for promotion and debt payment.
+
+```lean
+abbrev Timestamp := Nat
+
+inductive DebtItem
+| needMap
+| needInvariant
+| needToyCheck
+| needNullModel
+| needObstruction
+| needFaithfulnessReview
+deriving DecidableEq, Repr
+
+structure Idea where
+  owner : String
+  claim : String
+  source : Option String
+  born : Timestamp
+  debt : List DebtItem
+  containsFinalTruthClaim : Bool
+deriving Repr
 ```
 
-## Invariant Card
+Full starting debt:
 
-```yaml
-invariant_id: INV-0001
-name: Neighborhood growth stability
-definition: >
-  Count nodes reachable within k steps from each node and compare growth curves.
-why_it_matters: First proxy for locality and dimension-like behavior.
-failure_condition: Candidate collapses into small-world behavior or matches random rival.
+```lean
+def fullDebt : List DebtItem :=
+  [ DebtItem.needMap
+  , DebtItem.needInvariant
+  , DebtItem.needToyCheck
+  , DebtItem.needNullModel
+  , DebtItem.needObstruction
+  , DebtItem.needFaithfulnessReview
+  ]
 ```
 
-## Toy Check
+Fresh idea:
 
-```yaml
-toy_id: TOY-0001
-question: Can finite graphs support stable distance-like observables?
-procedure:
-  - construct candidate and rival graphs
-  - compute distance matrices
-  - compute neighborhood growth
-  - compare against null models
-omits:
-  - physical spacetime
-  - quantum theory
-  - general relativity
-  - continuum limit
-interpretation_limit: Toy-level support only.
+```lean
+def freshIdea
+  (owner claim : String)
+  (source : Option String)
+  (born : Timestamp)
+  : Idea :=
+{
+  owner := owner,
+  claim := claim,
+  source := source,
+  born := born,
+  debt := fullDebt,
+  containsFinalTruthClaim := false
+}
 ```
 
-## Prediction Card
+Alive and promoted:
 
-```yaml
-prediction_id: PRED-0001
-observable: neighborhood growth stability
-regime: matched finite graphs
-expected_effect: favored candidate outperforms random graph
-rival_prediction: random graph may show comparable growth
-failure_condition: rival performs equally well or better
-test_status: open
+```lean
+def ideaAlive (_ : Idea) : Bool :=
+  true
+
+def ideaPromoted (i : Idea) : Bool :=
+  i.debt.isEmpty && !i.containsFinalTruthClaim
 ```
+
+This is the whole operational philosophy:
+
+```text
+Every idea is alive.
+Only debt-free, non-final-truth ideas are promoted.
+```
+
+## A.4 Retiring and Reintroducing Debt
+
+```lean
+def retireDebt (d : DebtItem) (i : Idea) : Idea :=
+  { i with debt := i.debt.filter (fun x => x != d) }
+
+def addDebt (d : DebtItem) (i : Idea) : Idea :=
+  if i.debt.contains d then i else { i with debt := d :: i.debt }
+
+def fileObstruction (i : Idea) : Idea :=
+  addDebt DebtItem.needObstruction i
+```
+
+Debt does not kill. It blocks promotion until paid.
+
+## A.5 Final-Truth Handling
+
+```lean
+def markFinalTruthClaim (i : Idea) : Idea :=
+  { i with containsFinalTruthClaim := true }
+
+def clearFinalTruthClaim (i : Idea) : Idea :=
+  { i with containsFinalTruthClaim := false }
+```
+
+Blocked phrasing:
+
+```text
+This proves the final theory.
+This is the true substrate of nature.
+This solves quantum gravity.
+```
+
+Repairable phrasing:
+
+```text
+This is a candidate bridge.
+This is a proposed substrate hypothesis.
+This is a toy-supported formal obligation.
+This is a promoted artifact under current debt conditions.
+```
+
+## A.6 The Six Debt Items
+
+**needMap** — State domain, codomain, and translation rule.
+
+```lean
+structure CandidateMap where
+  Domain : Type
+  Codomain : Type
+  map : Domain -> Codomain
+```
+
+**needInvariant** — State what survives translation, emergence, approximation, or comparison.
+
+```lean
+structure CandidateInvariant (X : Type) where
+  holds : X -> Prop
+```
+
+**needToyCheck** — Run a finite check when a map and invariant exist.
+
+```lean
+def preservesInvariant
+  {A B : Type}
+  (f : A -> B)
+  (IA : A -> Nat)
+  (IB : B -> Nat)
+  : Prop :=
+  forall a : A, IB (f a) = IA a
+```
+
+**needNullModel** — Provide a rival model, or explicitly disclaim uniqueness, necessity, or superiority.
+
+```lean
+structure NullModel where
+  Carrier : Type
+  explains : Prop
+```
+
+**needObstruction** — State one blocker, no-go risk, or contradiction risk and its consequence.
+
+```lean
+structure Obstruction where
+  assumptions : Prop
+  forbidden : Prop
+  noGo : assumptions -> Not forbidden
+```
+
+**needFaithfulnessReview** — Ask whether the formalization or toy model matches the intended claim. If contested, promotion waits and the mismatch must be stated.
+
+## A.7 Three Lanes
+
+```text
+Inbox → Workbench → Promoted
+```
+
+**Inbox:** raw ideas.  
+**Workbench:** ideas with active debt-paying work.  
+**Promoted:** ideas with current debt retired and no final-truth language.
+
+Promoted means serious candidate artifact, not truth.
+
+## A.8 Next Smallest Useful Move
+
+Every idea should show one next move:
+
+```text
+Define the invariant in one sentence.
+Name the domain and codomain.
+Write the simplest map.
+State that uniqueness is not claimed.
+Find one null model.
+State one obstruction.
+Run one toy check.
+Ask whether the formalization matches the claim.
+Remove final-truth language.
+```
+
+## A.9 Remove Ruthlessly
+
+Kill at entry:
+
+```text
+mandatory profiles
+mandatory theory taxonomy
+mandatory bridge type
+mandatory Lean formalization
+priority scoring
+cost estimates
+stage bureaucracy
+multi-reviewer approval
+large reports
+dashboards before artifacts
+formalization-cost estimates
+```
+
+Keep:
+
+```text
+Idea
+Debt
+Retire debt
+Reintroduce debt
+Promotion requires debt paid
+Final-truth claims block promotion
+```
+
+EBP should feel like a notebook with a debt conscience, not a research-management platform.
 
 ---
 
-# Appendix B
-## The TBA Layer Stack
+# Appendix B  
+## Bridge Map, Flash Pass, and Extended Pass
 
-```mermaid
-flowchart TD
-    Lm1[Layer -1: Workbench and Governance]
-    L0[Layer 0: Constraint Substrate Candidates]
-    L1[Layer 1: Local States and Dynamics]
-    L2[Layer 2: Bridge Mechanisms and Coarse-Graining]
-    L3[Layer 3: Known-Physics Recovery Targets]
-    L4[Layer 4: Observers, Records, and Measurement]
-    L5[Layer 5: Stress Tests, Predictions, and Formal Checks]
-    Lm1 --> L0 --> L1 --> L2 --> L3 --> L4 --> L5
-```
+EBP is minimal at the protocol layer, but readers and tools still need operating modes. The key is that these modes must never become entry gates.
 
-Layer -1 keeps the research honest: claim registries, debt ledgers, evidence labels, human review, AI-output status, and promotion rules.
-
-Layer 0 holds candidate structures: E8-inspired structures, Leech-inspired structures, D4/triality structures, generic rigid lattices, random graphs, spin networks, causal sets, tensor networks, finite relational graphs, and reversible automata.
-
-Layer 1 asks how candidate structures change or constrain histories: state spaces, transition rules, causal growth, spin foams, tensor-network evolution, Bohmian guidance, lattice gauge dynamics, reversible updates, and constraint systems.
-
-Layer 2 builds maps from lower-level structure to higher-level observables: spectral reconstruction, entanglement renormalization, holographic reconstruction, coarse-graining, theta-series dictionaries, and effective continuum limits.
-
-Layer 3 asks whether known physics can be recovered: Newtonian mechanics, special relativity, general relativity, quantum mechanics, quantum field theory, gauge theory, thermodynamics, black-hole entropy, and continuum behavior.
-
-Layer 4 asks how definite records appear: measurement, decoherence, records, observers, Born-rule questions, and information access.
-
-Layer 5 makes claims woundable: prediction cards, null models, obstruction records, counterexample search, formal proof obligations, empirical tests, and AI evaluation.
+## B.1 Door, Workbench, Throne
 
 ```mermaid
 flowchart LR
-    A[Substrate] --> B[Geometry]
-    B --> C[Relativity]
-    A --> D[Dynamics]
-    D --> E[Quantum behavior]
-    A --> F[Matter and gauge structure]
-    D --> G[Black-hole information]
-    E --> H[Measurement records]
+    D[Door: ideas enter free] --> W[Workbench: debt-paying work]
+    W --> T[Throne: promoted under current debt conditions]
+    T -. new evidence creates new debt .-> W
 ```
+
+The door protects imagination. The throne protects rigor.
+
+## B.2 Inbox, Workbench, Promoted
+
+For software or notebooks, the user-facing lanes are:
+
+```text
+Inbox → Workbench → Promoted
+```
+
+Inbox requires only owner and claim. Workbench shows debt and the next smallest useful move. Promoted contains debt-retired, non-final-truth artifacts.
+
+## B.3 Flash Pass
+
+A Flash pass is quick triage. It asks:
+
+```text
+What is the claim?
+What kind of claim is it?
+What would break it?
+What debt is most obvious?
+What is the next smallest useful move?
+```
+
+Use Flash for early ideas, reading notes, AI outputs, and quick paper triage.
+
+## B.4 Core Pass
+
+A Core pass is the default serious review. It asks:
+
+```text
+claim
+assumptions
+map
+invariant
+null model or uniqueness disclaimer
+obstruction
+faithfulness concern
+next move
+```
+
+Core is enough for most work.
+
+## B.5 Extended Pass
+
+Extended pass is heavy equipment. Use it only when the claim is mature, high-stakes, or being archived.
+
+Extended may include:
+
+```text
+detailed reconstruction maps
+formal consistency checks
+empirical anchor checks
+rival adversarial modules
+source provenance
+Lean theorem obligations
+S+ or substrate-level mappings
+```
+
+Extended is not the default. EBP’s anti-bureaucracy rule applies: no large report unless it retires debt.
+
+## B.6 Bridge Vocabulary
+
+The word “bridge” remains useful, but it carries debt. A bridge claim should eventually state:
+
+```text
+domain
+codomain
+translation rule
+invariant
+regime
+rival or null model
+failure mode
+faithfulness risk
+```
+
+This is descriptive language, not a mandatory entry schema.
 
 ---
 
 # Appendix C
 ## Lean, AI, and the Proof Boundary
 
-Formal tools belong in TBA, but with boundaries.
+Formal tools belong in EBP, but with boundaries.
 
 ```text
 Formal validity: Does the theorem follow from definitions?
@@ -1405,30 +1893,73 @@ Final rule: never ask Lean to prove what has not been made mathematically precis
 
 ---
 
-# Appendix D
-## The Phased Roadmap
+# Appendix D  
+## The Minimal Roadmap
 
-**Phase 0 — Foundation and Governance:** create profile, claim registry, debt ledger, evidence labels, artifact schemas, and stage gates.
+The revised roadmap follows EBP v2.1: minimal first, heavy later.
 
-**Phase 1 — Layer 0 Admissibility:** define criteria for substrate candidates and complete at least one comparison without physical overclaim.
+## D.1 Month 1 — Build the Tiny Tool
 
-**Phase 2 — Toy Reconstruction:** run finite graph-to-distance, finite-dynamics-to-propagation, and finite-state information-preservation checks.
+Implement only:
 
-**Phase 3 — Dynamics Plugin Evaluation:** compare spin networks, causal sets, tensor networks, Bohmian guidance, lattice gauge dynamics, and reversible automata.
+```text
+ebp capture
+ebp status
+ebp retire
+ebp add-debt
+ebp promote
+```
 
-**Phase 4 — Bridge Architecture:** develop substrate-to-geometry, geometry-to-relativity, substrate-to-matter/gauge, and microstates-to-black-hole-observables bridges.
+Success: one-line ideas enter alive, default debt attaches, promotion is blocked until debt is retired and final-truth language is absent.
 
-**Phase 5 — Recovery Exploration:** create reports for Lorentz behavior, semiclassical gravity, quantum behavior, Standard Model structure, black-hole entropy, and continuum effective behavior.
+## D.2 Month 2 — Seamless Debt Notes
 
-**Phase 6 — Black-Hole Information Program:** compare thermal-loss, code-recovery, guidance-history, holographic, and reversible-scrambling toy models.
+Add lightweight notes and history. Let prose retire debt when possible.
 
-**Phase 7 — Matter and Standard Model Exploration:** investigate representation mapping, charges, chirality, anomalies, mixing structures, and null assignments.
+Examples:
 
-**Phase 8 — Empirical Prediction Program:** create prediction cards for possible observables where justified.
+```text
+Invariant: boundary distinguishability capacity I(B).
+Map: area A(B) to I(B) by monotone scaling.
+Obstruction: map may preserve normalization rather than structure.
+```
 
-**Phase 9 — Formalization and Verification:** formalize selected schemas, toy models, invariants, and bridge properties.
+Success: users feel like they are thinking, not filling forms.
 
-**Phase 10 — Comprehensive Review:** mark claims as promoted, alive, downgraded, obstructed, or retired.
+## D.3 Month 3 — Toy Checks and Null Models
+
+Add support for finite toy checks and rival/null entries. Keep them prose-first unless formalization is useful.
+
+Success: at least one claim faces a null model or explicitly disclaims uniqueness.
+
+## D.4 Month 4 — Lean-Shaped Debt Payment
+
+Introduce Lean-shaped structures for maps, invariants, toy checks, obstructions, and theorem obligations.
+
+Success: Lean is used as promotion support, not entry gate.
+
+## D.5 Month 5 — Flash and Extended Modes
+
+Add Flash for quick triage and Extended for high-stakes archived analysis. Keep Core as default.
+
+Success: Extended does not become mandatory.
+
+## D.6 Month 6 — Living Ledger
+
+Add promotion/unpromotion history. New evidence can reintroduce debt.
+
+Success: promoted artifacts can return to Workbench without shame.
+
+## D.7 Long-Term Direction
+
+Pithom Theory Workbench may implement EBP with local databases, Git, Lean, notebooks, or future tools. But PTW must not own the protocol and must not reintroduce bureaucracy.
+
+The rule remains:
+
+```text
+Make the accounting invisible.
+Make the promotion criteria explicit.
+```
 
 ---
 
@@ -1485,70 +2016,153 @@ Final rule: never ask Lean to prove what has not been made mathematically precis
 
 ---
 
-# Appendix F
-## Sample Workbench Artifact Pack
+# Appendix F  
+## Sample EBP Pass
 
-```yaml
-profile_id: TBA-PROFILE-0001
-name: First Crossing Profile
-purpose: Test whether finite relational structures support distance-like observables.
-forbidden_overclaims:
-  - spacetime has been derived
-  - E8 is physically fundamental
-  - toy success proves reality
-initial_maturity: Seed / Toy Model program
+This sample replaces the old YAML-heavy artifact pack with a prose-first EBP pass.
+
+## F.1 Capture
+
+```text
+ebp capture "Researcher" "Boundary information capacity may be the shared invariant behind area, entropy, spin labels, and CFT state counting."
 ```
 
-```yaml
-claim_id: TBA-0001
-title: Relational structure may support distance-like observables
-claim_statement: >
-  A finite relational structure may support a distance-like observable through an explicit translation rule.
-maturity_status: Seed
-evidence_status: human_hypothesis
-current_debt:
-  - needMap
-  - needInvariant
-  - needToyCheck
-  - needNullModel
-  - needObstruction
-  - needFaithfulnessReview
+Status:
+
+```text
+Alive: yes.
+Promoted: no.
+Debt:
+- needMap
+- needInvariant
+- needToyCheck
+- needNullModel
+- needObstruction
+- needFaithfulnessReview
+Next move: define the candidate invariant in one sentence.
 ```
 
-```yaml
-candidates:
-  - id: CAND-0001
-    name: matched random graph
-    role: null model
-  - id: CAND-0002
-    name: regular lattice graph
-    role: simple baseline
-  - id: CAND-0003
-    name: generic rigid lattice
-    role: structured rival
-  - id: CAND-0004
-    name: E8-inspired finite structure
-    role: candidate witness
+## F.2 Clarify Invariant
+
+Researcher writes:
+
+```text
+The invariant is boundary distinguishability capacity I(B).
 ```
 
-```yaml
-bridge_id: BRIDGE-0001
-domain: finite graph
-codomain: distance-like observable
-translation_rule: shortest-path distance
-invariant: neighborhood growth stability
-rivals:
-  - matched random graph
-  - regular lattice graph
-  - generic rigid lattice
-failure_modes:
-  - graph disconnected
-  - locality collapse
-  - rival performs equally well
-  - rule imposes desired behavior
+Possible debt movement:
+
+```text
+needInvariant retired or partially retired.
 ```
 
-If the E8-inspired candidate fails to outperform the matched random graph, it is downgraded for this bridge task. If it succeeds, it is locally promoted only for this toy bridge and receives new debt: perturbation tests, alternative distance rules, stronger null models, and propagation checks.
+## F.3 Clarify Map
+
+Researcher writes:
+
+```text
+Area, state count, spin-boundary labels, and code-cut capacity each map into I(B) by capacity-preserving or capacity-scaling maps.
+```
+
+Possible debt movement:
+
+```text
+needMap retired or partially retired.
+```
+
+## F.4 Toy Check
+
+A finite model tests exact preservation and scaling preservation.
+
+Possible result:
+
+```text
+Exact preservation succeeds for one toy face.
+Scaling preservation succeeds for another.
+Exact equality is not claimed globally.
+```
+
+Possible debt movement:
+
+```text
+needToyCheck retired, or left open if the model fails.
+```
+
+## F.5 Null Model
+
+Researcher writes:
+
+```text
+A tensor-network-only explanation may reproduce the same capacity behavior.
+```
+
+This may retire `needNullModel` while downgrading uniqueness claims.
+
+Alternatively:
+
+```text
+I do not claim uniqueness. I only claim compatibility worth exploring.
+```
+
+That may retire early null-model debt for a modest claim.
+
+## F.6 Obstruction
+
+Researcher writes:
+
+```text
+The bridge may fail if the maps preserve only chosen normalization rather than invariant structure.
+```
+
+Possible debt movement:
+
+```text
+needObstruction retired, modified, or kept open depending on severity.
+```
+
+## F.7 Faithfulness
+
+Reviewer asks:
+
+```text
+Does the Lean toy invariant actually represent the intended boundary-capacity claim?
+```
+
+If yes, `needFaithfulnessReview` may be retired.
+
+If contested, promotion waits. The mismatch must be stated in one sentence. The owner may repair, revise, or accept the block.
+
+## F.8 Promotion
+
+If all debts are retired and no final-truth language exists:
+
+```text
+Promoted: yes.
+Meaning: serious candidate artifact under current debt conditions.
+Not meaning: nature is proven.
+```
+
+If a new obstruction appears later, debt returns.
+
+## F.9 E8 Example
+
+Capture:
+
+```text
+Claim: E8 structure may control Standard Model gauge symmetries.
+```
+
+The idea enters alive.
+
+Possible obstruction:
+
+```text
+Direct E8 unification faces chirality and representation-content problems.
+```
+
+This does not kill the idea. It creates or preserves obstruction debt. Possible outcomes include repair, downgrade to E8-structural rather than E8-literal, dormancy, conversion into a null model, or promotion after serious debt retirement.
+
+Debt carries the epistemic state.
 
 ---
 
@@ -1577,31 +2191,71 @@ If the E8-inspired candidate fails to outperform the matched random graph, it is
 
 ---
 
-# Appendix H
+# Appendix H  
 ## Final Book Blueprint
 
-The book’s identity is:
+The revised book’s identity is:
 
 ```text
 popular science narrative
 + disciplined speculative physics
-+ Workbench manual
-+ AI-era theory-building guide
++ Elephant Bridge Protocol
++ AI-era epistemic hygiene
 ```
 
-Core message:
+Its core message is:
 
 ```text
 Every theory touches part of reality.
 No theory should be crowned without bridges.
-Every bridge must face rivals, obstructions, tests, and review.
+Every bridge must face debt.
+Promotion is not truth.
 ```
 
-The book claims that existing theories should be treated as partial probes of reality, that deeper frameworks must recover known physics, that mathematical beauty requires physical bridges, that simulations are not proofs, that formal proof does not establish physical relevance by itself, and that AI can accelerate theory-building only when outputs remain reviewable and downgradeable.
+## H.1 Core Claims
 
-The book does not claim TBA is a final theory, does not solve quantum gravity, does not prove spacetime emergence, does not prove E8 is physically fundamental, does not solve black-hole information, Navier–Stokes, or Yang–Mills, and does not claim AI or Lean can validate physical reality alone.
+1. Existing theories should be treated as partial probes of reality, not all-or-nothing packages.
+2. A deeper framework must recover known physics rather than merely replace it rhetorically.
+3. Mathematical beauty is valuable, but physical meaning requires bridges.
+4. Simulations explore models, but they are not proofs.
+5. Formal proof strengthens exact mathematical claims, but does not establish physical relevance by itself.
+6. AI can accelerate theory-building only if outputs remain reviewable, typed, sourced, tested, and downgradeable.
+7. Speculative theories need null models, obstructions, faithfulness reviews, and prediction cards when they seek promotion.
+8. EBP is a minimal protocol for epistemic hygiene, not a completed theory of physics.
 
-Final rule:
+## H.2 Claims the Book Does Not Make
+
+This book does not claim:
+
+```text
+EBP is a final theory.
+EBP solves quantum gravity.
+EBP proves spacetime emergence.
+EBP proves E8 is physically fundamental.
+EBP solves the black-hole information paradox.
+EBP solves Navier–Stokes smoothness.
+EBP solves Yang–Mills mass gap.
+AI can independently validate final physics.
+Lean can prove physical reality.
+Toy models establish the universe.
+```
+
+## H.3 Final Assembly Rule
+
+Preserve the balance:
+
+```text
+wonder without hype
+discipline without dryness
+speculation without overclaim
+mathematics without idolatry
+AI without oracle language
+proof without physical overreach
+toy models without cosmic inflation
+protocol without bureaucracy
+```
+
+The final line of the method is simple:
 
 ```text
 Do not claim the whole elephant.
@@ -1631,6 +2285,10 @@ Build the next honest crossing.
 [^9]: Sidharth Hariharan, Christopher Birkbeck, Seewoo Lee, Ho Kiu Gareth Ma, Bhavik Mehta, Auguste Poiroux, and Maryna Viazovska, “A Milestone in Formalization: The Sphere Packing Problem in Dimension 8,” arXiv:2604.23468 (2026); see also Formalising Sphere Packing in Lean project reports and Math Inc.’s announcement on higher-dimensional sphere packing formalization.
 
 [^10]: Math Inc., “Introducing Gauss, an agent for autoformalization,” and Fields Institute listing “Gauss — an agentic formalization of the Prime Number Theorem.” These sources describe Gauss as assisting human mathematicians in Lean formalization and report work on a strong Prime Number Theorem challenge associated with Terence Tao and Alex Kontorovich.
+
+[^godel]: The term “Gödel-humble” is used here as a methodological metaphor, not as a technical claim that Gödel’s incompleteness theorems directly settle questions in physics. The point is modest: formal systems are powerful but bounded, and formal validity is not identical with physical truth.
+
+[^philsci]: Karl Popper, *The Logic of Scientific Discovery*; Thomas S. Kuhn, *The Structure of Scientific Revolutions*; Imre Lakatos, “Falsification and the Methodology of Scientific Research Programmes.” The book invokes these traditions only to position EBP as a practical notebook discipline, not as a replacement for philosophy of science.
 
 ---
 
