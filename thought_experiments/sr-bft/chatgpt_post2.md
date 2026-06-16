@@ -1,0 +1,194 @@
+# Special Relativity May Be Right — and Still Not Be the Whole Ontology
+
+There is a familiar way to tell the story of special relativity.
+
+Before Einstein, physicists imagined that space might contain an invisible medium, an ether, against which motion could be measured. Then came the failure to detect that ether, the constancy of the speed of light, and the radical conclusion: there is no absolute rest, no universal simultaneity, no cosmic “now.” There are only events in spacetime, related by Lorentz transformations. Time is not the same for everyone. Simultaneity is frame-dependent. The world is four-dimensional.
+
+That story is one of the great achievements of modern physics. It is experimentally secure to extraordinary precision. It underwrites particle physics, accelerator design, GPS timing, high-energy scattering, and the entire architecture of relativistic field theory.
+
+But there is a quieter question hiding beneath the standard story.
+
+Does special relativity show that there is no deeper preferred ordering of events? Or does it show only that no such ordering is visible to observers using ordinary rods, clocks, light signals, and quantum matter?
+
+Those are not the same claim.
+
+The safe claim is this: **special relativity is not false, but its usual ontological reading may be stronger than what experiments strictly require.**
+
+That distinction becomes especially interesting when viewed through Bohmian mechanics and Bohmian field theory.
+
+## The operational theory and the ontological theory
+
+Special relativity is often treated as both an operational and ontological theory.
+
+Operationally, it tells us how clocks, rulers, light signals, and inertial observers behave. On this level, its message is precise: no inertial frame is experimentally privileged, the speed of light is invariant, and physical laws must take the same form across inertial frames.
+
+Ontologically, it is often read more strongly. It is taken to mean that there is no fact of the matter about absolute simultaneity, no hidden preferred time, no underlying frame in which events are “really” ordered. The geometry of Minkowski spacetime is not merely a successful description of measurement. It is taken as the deep furniture of reality.
+
+Bohmian mechanics challenges that second move.
+
+In Bohmian mechanics, quantum systems have definite configurations. Particles have actual positions. In field versions, fields or field-related variables may be treated as real beables. These real configurations are guided by a wave function or wave functional. The theory is deterministic and explicitly nonlocal.
+
+That nonlocality is the pressure point.
+
+If two distant systems are entangled, the actual behavior of one can depend on the actual configuration of the other. In ordinary nonrelativistic Bohmian mechanics, this is clear. The wave function lives on configuration space and guides the whole configuration at once.
+
+But once we try to make the theory relativistic, a problem appears. What does “at once” mean in spacetime if special relativity denies absolute simultaneity?
+
+Many Bohmian approaches answer by introducing something like a preferred foliation: a way of slicing spacetime into spacelike hypersurfaces, each representing a global “now.” The theory may then define the actual configuration of the world on one slice and evolve it to the next.
+
+This looks, at first, like a direct conflict with special relativity.
+
+But the conflict depends on what we demand.
+
+If we demand that the deepest ontology itself must be Lorentz invariant in the same way the observable predictions are Lorentz invariant, then Bohmian field theory is in trouble. But if we require only that the observable predictions respect Lorentz invariance and no-signaling, then the door remains open.
+
+That is the central hinge.
+
+## Lorentz covariance without Lorentz ontology
+
+The key distinction is between Lorentz symmetry as a property of observable phenomena and Lorentz symmetry as a property of ultimate ontology.
+
+A Bohmian theory with a preferred foliation may violate Lorentz invariance at the hidden-ontology level while still reproducing Lorentz-covariant observable statistics. In other words, the measurements may transform correctly even if the invisible machinery beneath them has additional structure.
+
+This may sound evasive, but it is not logically incoherent.
+
+Physics often contains hidden structures that are not visible at the level of effective behavior. A fluid looks continuous at large scales, but it is molecular underneath. A crystal may select a preferred lattice frame, while its long-wavelength excitations can obey equations that look highly symmetric. Thermodynamics speaks of temperature and pressure, while statistical mechanics speaks of microstates.
+
+The analogy is not perfect, but it is useful.
+
+Special relativity may describe the smooth public interface of spacetime. Bohmian field theory asks whether that interface is generated by a deeper nonlocal coordination layer that is normally hidden from observation.
+
+The safe claim is not that Lorentz invariance is “fake.” It is that Lorentz invariance may be a symmetry of the accessible layer rather than a final statement about all layers.
+
+## Why quantum equilibrium matters
+
+The most important mechanism here is quantum equilibrium.
+
+In Bohmian mechanics, if the distribution of hidden configurations matches the Born rule, then the theory reproduces the predictions of ordinary quantum mechanics. This condition is usually written as a distribution proportional to the squared amplitude of the wave function.
+
+In equilibrium, Bohmian nonlocality cannot be used for controllable faster-than-light signaling. The hidden coordination is present in the ontology, but it is masked in the statistics. The observable world remains compatible with relativistic no-signaling.
+
+This is why Bohmian nonlocality does not automatically demolish special relativity.
+
+The nonlocality is not a usable telegraph. It is not a device for sending messages into the past. It does not let ordinary observers synchronize clocks instantaneously. It remains hidden behind the statistical structure of quantum equilibrium.
+
+But this also means that the empirical safety of special relativity may depend, in a Bohmian reading, on the stability and universality of quantum equilibrium.
+
+This is where Antony Valentini’s nonequilibrium program becomes especially relevant. Valentini has argued that if quantum equilibrium is not universal — if there were relic systems from the early universe, black holes, or other extreme regimes that failed to relax into Born-rule equilibrium — then new phenomena might appear. These could include deviations from standard quantum statistics or even operational access to nonlocal correlations.
+
+That is the crucial possible crack.
+
+If equilibrium is exact and universal, the preferred foliation remains empirically hidden. It may be metaphysically meaningful, but experimentally inaccessible.
+
+If nonequilibrium exists, then the hidden layer might leak. In that case, the operational reading of special relativity could become incomplete in a testable way.
+
+This is why the clean research question is not “Is special relativity false?”
+
+The cleaner question is: **Is quantum equilibrium absolute, or is it a contingent historical state of the universe?**
+
+## The CMB frame is suggestive, but not enough
+
+A common temptation is to point to the cosmic microwave background and say: the universe already gives us a preferred frame.
+
+There is indeed a cosmological rest frame: the frame in which the cosmic microwave background looks approximately isotropic. Cosmologists use cosmic time all the time. Our solar system has a measurable velocity relative to that frame.
+
+But this does not violate special relativity.
+
+Special relativity says that the fundamental laws do not privilege one inertial frame over another. It does not say the actual matter distribution of the universe must look identical from all frames. A gas in a box has a rest frame too. That does not overthrow Lorentz symmetry.
+
+So the CMB frame is not proof of a Bohmian foliation. At most, it is a suggestive candidate for how a preferred cosmic slicing might be physically meaningful in a deeper theory.
+
+The EBP-safe version is: the CMB frame may be relevant to model-building, but it cannot be treated as evidence that special relativity is wrong.
+
+## The block universe problem
+
+The deepest tension may not be technical. It may be metaphysical.
+
+Special relativity naturally encourages the block-universe picture: spacetime as a four-dimensional whole, with past, present, and future equally part of the structure. There is no objectively moving present. There is no universal becoming. “Now” is not written into the geometry.
+
+Bohmian mechanics feels different. It describes an actual configuration evolving under a guidance law. It gives the impression of a real state of the universe changing with time. Even if one can formulate more sophisticated versions, the natural Bohmian picture is one of becoming, not a static block.
+
+This is more than a disagreement about coordinates. It is a disagreement about what time is doing.
+
+If the block universe is the correct ontology, then Bohmian evolution needs reinterpretation. Perhaps the trajectories are simply worldlines inside a four-dimensional structure. Perhaps the guiding law is a global constraint rather than a process unfolding in time.
+
+If Bohmian becoming is fundamental, then the block universe may be an artifact of taking the relativity of observable simultaneity too literally as a metaphysics.
+
+This issue cannot be settled by metaphor. It needs formal work. But it is important because the preferred-foliation problem may be downstream of the deeper question: is time a dimension in a completed spacetime, or is time an actual generative process?
+
+## Dynamical foliation, not ad hoc foliation
+
+A weak Bohmian response simply adds a preferred foliation by hand.
+
+That is not satisfying.
+
+If a theory says, “There is a hidden slicing of spacetime, but you cannot see it, and I will not explain where it comes from,” then the structure looks ad hoc. It may be logically possible, but it lacks explanatory force.
+
+A stronger program would derive the foliation dynamically.
+
+Perhaps the foliation is selected by the universal wave function. Perhaps it is tied to cosmological boundary conditions. Perhaps it emerges from stress-energy structure, quantum information flow, or a law defined covariantly over possible hypersurfaces. Some relativistic Bohmian proposals try to move in this direction, including approaches where the foliation is not arbitrarily fixed but connected to the quantum state or selected in a Lorentz-compatible way at the statistical level.
+
+This matters because the difference between “hidden preferred frame” and “dynamically generated ordering structure” is enormous.
+
+The first sounds like a patch. The second could be physics.
+
+## What would count as progress?
+
+A serious version of this conjecture needs more than evocative language. It needs a workbench.
+
+First, it needs a clear map from Bohmian beables to relativistic quantum observables. If the ontology contains fields or configurations on preferred slices, the theory must show precisely how ordinary QFT observables arise.
+
+Second, it must preserve the invariants that make special relativity empirically successful: no controllable faster-than-light signaling, Lorentz-covariant scattering predictions, conservation laws, and Born-rule equivariance under ordinary conditions.
+
+Third, it needs toy models. Not just philosophical declarations, but small mathematical systems where a non-Lorentzian hidden dynamics produces Lorentz-covariant observable statistics. The goal would be to show how symmetry can appear at the measurement layer even when the underlying ontology contains extra structure.
+
+Fourth, it must be compared against null models. Standard QFT, Everettian quantum mechanics, Copenhagen-style operationalism, objective-collapse models, and retrocausal models all offer different ways of handling the same facts. Bohmian field theory earns no special privilege unless it explains more, clarifies more, or opens better testable paths.
+
+Fifth, it must face its obstructions. The biggest ones are obvious: the risk of an ad hoc foliation, the difficulty of interacting relativistic QFT, the problem of gravity, the status of configuration space, and the possibility that the hidden structure may never generate new empirical predictions.
+
+Without that work, the idea remains an interesting interpretation. With that work, it becomes a research program.
+
+## The correct demotion of special relativity
+
+The word “demotion” can be misleading. To call special relativity effective or operational is not to insult it.
+
+Thermodynamics is effective, and it is magnificent. Fluid mechanics is effective, and it can describe hurricanes. Classical mechanics is effective, and it landed spacecraft on other worlds. An effective theory can be exact within its domain and still not be the deepest layer.
+
+So the conjecture is not that special relativity is a mistake.
+
+The conjecture is that special relativity may be like thermodynamics: a powerful public law of appearances, not necessarily the final microscopic ontology.
+
+In that reading, the relativity of simultaneity is not wrong. It is the rule governing what observers can establish using light signals and equilibrium matter. But underneath that operational limit, there may exist a hidden ordering structure that ordinary observers cannot access.
+
+This is a subtle position. It is easy to exaggerate it into nonsense. It does not say Einstein failed. It does not say GPS is secretly wrong. It does not say faster-than-light signaling is available. It does not say a preferred foliation has been observed.
+
+It says something more careful:
+
+**The experiments that support special relativity force Lorentz symmetry on observable physics. They do not, by themselves, prove that the ultimate ontology must contain no hidden preferred structure.**
+
+That is the narrow doorway through which Bohmian field theory enters.
+
+## Why the question matters
+
+The stakes are not merely interpretive.
+
+Quantum theory already tells us that nature is nonlocal in a Bell sense. Relativity tells us that this nonlocality cannot be used for ordinary signaling. Standard quantum theory lives with this tension by refusing to provide a detailed underlying mechanism. Bohmian mechanics provides one, but pays with hidden nonlocal structure.
+
+The question is whether that price is too high, or whether it is a clue.
+
+Maybe Lorentz invariance is the visible symmetry of a world in quantum equilibrium. Maybe spacetime geometry is not the container of quantum reality, but an emergent bookkeeping scheme generated by deeper correlations. Maybe the measurement problem and the relativity-of-simultaneity problem are not separate puzzles, but two faces of the same unfinished ontology.
+
+Or maybe not.
+
+Maybe the preferred foliation is unnecessary. Maybe retrocausal models, many-worlds, algebraic QFT, or some future quantum-gravity framework will absorb the same tensions without hidden time. Maybe Bohmian field theory is useful mainly because it exposes what the standard language leaves vague.
+
+That would still be valuable.
+
+A good foundational theory does not only make predictions. It also reveals which assumptions we have mistaken for necessities.
+
+Special relativity remains one of the most beautiful structures in physics. But beauty can sometimes harden into metaphysics. The Bohmian challenge is to ask whether we have treated the symmetry of what can be measured as the symmetry of what must exist.
+
+The answer is not settled.
+
+But the question is legitimate.
+
