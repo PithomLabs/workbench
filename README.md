@@ -10,6 +10,10 @@ TL;DR
 3. Together, Flash gives the fast orientation and Extended gives the drift-resistant, uniform analysis that different LLMs can follow consistently.
 
 
+![image](https://github.com/PithomLabs/workbench/blob/main/EBP2.1.png)
+
+
+
 # The Workbench: A New Grammar for Honest Physics
 
 Physics has always advanced by a strange mixture of audacity and restraint. We ask enormous questions — What is matter? What is space? What was the beginning? — but nature answers only when we discipline our imagination. The great danger in theoretical physics is not speculation. Speculation is necessary. The danger is confusion: mistaking a calculation for an explanation, an analogy for a theory, a compatibility check for a derivation.
