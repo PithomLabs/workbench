@@ -10,47 +10,47 @@
 ## Table of Contents
 
 ### Front Matter
-- [Preface](front_matter/preface.md)
+- Preface
 
 ### Part I — The Stage: What We Thought We Knew, and How It Cracked
-- Chapter 1: [The Clockwork Dream](chapters/ch01_clockwork_dream.md)
-- Chapter 2: [The Two Clouds That Became Storms](chapters/ch02_two_clouds.md)
-- Chapter 3: [The Copenhagen Putsch](chapters/ch03_copenhagen_putsch.md)
+- Chapter 1: The Clockwork Dream
+- Chapter 2: The Two Clouds That Became Storms
+- Chapter 3: The Copenhagen Putsch
 
 ### Part II — The Rebels: de Broglie, Einstein, and the Heresy That Wouldn't Die
-- Chapter 4: [de Broglie's Pilot Wave (The First Rebellion)](chapters/ch04_de_broglie.md)
-- Chapter 5: [Einstein's Lonely War](chapters/ch05_einstein_lonely_war.md)
-- Chapter 6: [David Bohm — The Exile Who Saw Clearly](chapters/ch06_david_bohm.md)
+- Chapter 4: de Broglie's Pilot Wave (The First Rebellion)
+- Chapter 5: Einstein's Lonely War
+- Chapter 6: David Bohm — The Exile Who Saw Clearly
 
 ### Part III — The Bohmian Machinery: Particles, Waves, and the Quantum Potential
-- Chapter 7: [The Particle Is Real](chapters/ch07_particle_is_real.md)
-- Chapter 8: [The Pilot Wave and the Quantum Potential](chapters/ch08_pilot_wave.md)
-- Chapter 9: [Nonlocality — The Universe's Hidden Telephone](chapters/ch09_nonlocality.md)
+- Chapter 7: The Particle Is Real
+- Chapter 8: The Pilot Wave and the Quantum Potential
+- Chapter 9: Nonlocality — The Universe's Hidden Telephone
 
 ### Part IV — The Weirdness, Explained (Bohmian Style)
-- Chapter 10: [The Double-Slit — A Bohmian Narrative](chapters/ch10_double_slit.md)
-- Chapter 11: [Measurement — Why Looking Seems to Matter](chapters/ch11_measurement.md)
-- Chapter 12: [Uncertainty — Not in Nature, in Our Knowledge](chapters/ch12_uncertainty.md)
+- Chapter 10: The Double-Slit — A Bohmian Narrative
+- Chapter 11: Measurement — Why Looking Seems to Matter
+- Chapter 12: Uncertainty — Not in Nature, in Our Knowledge
 
 ### Part V — The Deep End: Decoherence, the Aharonov-Bohm Effect, Cosmology, and Black Holes
-- Chapter 13: [Decoherence — How the Classical World Emerges](chapters/ch13_decoherence.md)
-- Chapter 14: [The Aharonov-Bohm Effect — When the Field Isn't There But Its Shadow Is](chapters/ch14_aharonov_bohm.md)
-- Chapter 15: [Bohmian Cosmology — The Universe as a Single Quantum System](chapters/ch15_cosmology.md) ⚠️
-- Chapter 16: [Black Holes and the Information Paradox](chapters/ch16_black_holes.md) ⚠️⚠️
+- Chapter 13: Decoherence — How the Classical World Emerges
+- Chapter 14: The Aharonov-Bohm Effect — When the Field Isn't There But Its Shadow Is
+- Chapter 15: Bohmian Cosmology — The Universe as a Single Quantum System ⚠️
+- Chapter 16: Black Holes and the Information Paradox ⚠️⚠️
 
 ### Part VI — The Philosophical Depths
-- Chapter 17: [Free Will, Determinism, and the Script](chapters/ch17_free_will.md)
-- Chapter 18: [The Nature of Reality — What Bohmian Mechanics Claims Exists](chapters/ch18_ontology.md)
+- Chapter 17: Free Will, Determinism, and the Script
+- Chapter 18: The Nature of Reality — What Bohmian Mechanics Claims Exists
 
 ### Part VII — The Interpretations Wars and the Future
-- Chapter 19: [The Interpretations Olympics](chapters/ch19_interpretations.md)
-- Chapter 20: [Open Questions and the Road Ahead](chapters/ch20_open_questions.md)
+- Chapter 19: The Interpretations Olympics
+- Chapter 20: Open Questions and the Road Ahead
 
 ### Back Matter
-- Appendix A: [The Math (For the Brave)](back_matter/appendix_a_math.md)
-- Appendix B: [Timeline of Key Experiments and Ideas](back_matter/appendix_b_timeline.md)
-- Appendix C: [Further Reading](back_matter/appendix_c_reading.md)
-- [Glossary](back_matter/glossary.md)
+- Appendix A: The Math (For the Brave)
+- Appendix B: Timeline of Key Experiments and Ideas
+- Appendix C: Further Reading
+- Glossary
 
 ---
 
