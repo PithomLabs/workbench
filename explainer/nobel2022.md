@@ -1,3 +1,5 @@
+https://www.nobelprize.org/prizes/physics/2022/popular-information/
+
 The Nobel Prize in Physics 2022
 Using groundbreaking experiments, Alain Aspect, John Clauser and Anton Zeilinger have demonstrated the potential to investigate and control particles that are in entangled states. What happens to one particle in an entangled pair determines what happens to the other, even if they are really too far apart to affect each other. The laureates’ development of experimental tools has laid the foundation for a new era of quantum technology.
 
