@@ -6,26 +6,26 @@ in plain English, itemize the principles that explain why a synthesized BM and I
 ## claude 
 
 **Category A — What actually exists (ontology)**
-1. Particles have real, definite positions at all times — no rival except plain Bohmian mechanics offers this; string theory and loop quantum gravity have no particle at all, just vibrating strings or networks of geometry.
-2. The wave function isn't a physical thing — it's a byproduct of a deeper structure (the attractor), which sidesteps the century-old "what even is the wave function" problem that orthodox QM, string theory, and LQG all leave unanswered.
+- 1. Particles have real, definite positions at all times — no rival except plain Bohmian mechanics offers this; string theory and loop quantum gravity have no particle at all, just vibrating strings or networks of geometry.
+- 2. The wave function isn't a physical thing — it's a byproduct of a deeper structure (the attractor), which sidesteps the century-old "what even is the wave function" problem that orthodox QM, string theory, and LQG all leave unanswered.
 
 **Category B — Why measurements give one answer (measurement problem)**
-3. No collapse is needed — the other outcomes aren't hidden or destroyed, they simply aren't part of the physically realized state space in the first place.
-4. Why "empty" branches stay empty falls out of the dynamics itself (stable vs. unstable regions of motion), not from an extra rule bolted on — more principled than GRW's built-in randomness, and more complete than plain decoherence's "good enough in practice" answer.
+- 3. No collapse is needed — the other outcomes aren't hidden or destroyed, they simply aren't part of the physically realized state space in the first place.
+- 4. Why "empty" branches stay empty falls out of the dynamics itself (stable vs. unstable regions of motion), not from an extra rule bolted on — more principled than GRW's built-in randomness, and more complete than plain decoherence's "good enough in practice" answer.
 
 **Category C — Why distant particles stay correlated (Bell's theorem)**
-5. Correlations between distant particles are explained by non-local influence, the same mechanism ordinary Bohmian mechanics already uses — no need for the more radical, harder-to-defend claim that measurement choices were secretly predetermined.
-6. Experimenters' free choice of what to measure is fully preserved — a real advantage over stronger superdeterministic theories, which are accused of undermining the very idea of a controlled experiment.
+- 5. Correlations between distant particles are explained by non-local influence, the same mechanism ordinary Bohmian mechanics already uses — no need for the more radical, harder-to-defend claim that measurement choices were secretly predetermined.
+- 6. Experimenters' free choice of what to measure is fully preserved — a real advantage over stronger superdeterministic theories, which are accused of undermining the very idea of a controlled experiment.
 
 **Category D — Where the smallest-scale structure comes from**
-7. The small-scale cutoff (the theory's version of "nothing smaller than this") comes from number theory itself, rather than being invented and tuned by hand — unlike string theory's string length or loop quantum gravity's minimum area, which are extra assumptions with no independent justification.
-8. Everyday, macroscopic reality is explained as a natural consequence of the deeper number-theoretic structure, rather than just being assumed as the backdrop everything else happens on.
+- 7. The small-scale cutoff (the theory's version of "nothing smaller than this") comes from number theory itself, rather than being invented and tuned by hand — unlike string theory's string length or loop quantum gravity's minimum area, which are extra assumptions with no independent justification.
+- 8. Everyday, macroscopic reality is explained as a natural consequence of the deeper number-theoretic structure, rather than just being assumed as the backdrop everything else happens on.
 
 **Category E — Testable differences from every rival (falsifiability)**
-9. Predicts a specific, patterned departure from standard quantum probabilities depending on how "irrational" a measurement angle is — a distinctive fingerprint no competing theory makes.
-10. Predicts a hard, fixed ceiling on how big an object can be while still showing quantum behavior — and unlike rival collapse theories, this ceiling is exact and deterministic, not random.
-11. Predicts zero background noise from spontaneous random collapses — a clean, sharp test against GRW/CSL-style theories, which predict exactly that noise.
-12. Predicts no extra dimensions, no supersymmetric particles, and no breakdown of Einstein's relativity at high energy — fewer new ingredients than string theory or loop quantum gravity require.
+- 9. Predicts a specific, patterned departure from standard quantum probabilities depending on how "irrational" a measurement angle is — a distinctive fingerprint no competing theory makes.
+- 10. Predicts a hard, fixed ceiling on how big an object can be while still showing quantum behavior — and unlike rival collapse theories, this ceiling is exact and deterministic, not random.
+- 11. Predicts zero background noise from spontaneous random collapses — a clean, sharp test against GRW/CSL-style theories, which predict exactly that noise.
+- 12. Predicts no extra dimensions, no supersymmetric particles, and no breakdown of Einstein's relativity at high energy — fewer new ingredients than string theory or loop quantum gravity require.
 
 Worth being upfront: items 9 and 10 are the theory's most distinctive claims, and they're also the two still waiting on a number — the predicted size of the effect isn't pinned down yet, which is what the last several rounds of repair were aimed at. The rest of the list holds regardless of that outstanding work.
 
@@ -105,38 +105,38 @@ The case for the synthesis, stated as principles rather than claims, grouped by 
 
 **Group A — Ontology: what it says exists**
 
-1 - **Real particles, real trajectories.** The only candidate theory where the things we see are literally the things in the theory; string theory, loop quantum gravity, and causal sets all give up particles.
-2 - **No fundamental dice.** Fully deterministic at the bottom; chance is our ignorance of fine detail. This is testable against stochastic rivals, not just a philosophical preference.
-3 - **One world, always definite.** No branching universes, no collapse events; measurement gets an answer without extra machinery bolted on.
-4 - **The wave function is a law, not a substance.** Demoted to effective choreography (like a Hamiltonian), which dissolves rather than answers the fight over what the wave function is made of.
+- 1 - **Real particles, real trajectories.** The only candidate theory where the things we see are literally the things in the theory; string theory, loop quantum gravity, and causal sets all give up particles.
+- 2 - **No fundamental dice.** Fully deterministic at the bottom; chance is our ignorance of fine detail. This is testable against stochastic rivals, not just a philosophical preference.
+- 3 - **One world, always definite.** No branching universes, no collapse events; measurement gets an answer without extra machinery bolted on.
+- 4 - **The wave function is a law, not a substance.** Demoted to effective choreography (like a Hamiltonian), which dissolves rather than answers the fight over what the wave function is made of.
 
 **Group B — Explanatory economy: what it derives instead of postulating**
 
-5 - **One origin, many results.** A single attractor theorem, with the Born rule, measurement stability, and gravity's role all falling out as corollaries — where rivals stack separate postulates.
-6 - **The Born rule as the shape of the attractor.** Quantum statistics are the natural measure on the allowed states (the way equal energy is natural on a shell), not a relaxed-to accident and not an assumption.
-7 - **Measurement by geometry, not new physics.** Cat states are simply not stable states of the dynamics; this also explains why empty branches stay empty, which standard Bohmian mechanics merely asserts.
-8 - **Gravity has a principled home.** It emerges as the residue of the real-number sector, rather than being hand-named as "the thing that collapses the wave function."
-9 - **Infinities tamed by construction.** Number-theoretic granularity gives a built-in short-distance cutoff without anyone imposing one by hand.
+- 5 - **One origin, many results.** A single attractor theorem, with the Born rule, measurement stability, and gravity's role all falling out as corollaries — where rivals stack separate postulates.
+- 6 - **The Born rule as the shape of the attractor.** Quantum statistics are the natural measure on the allowed states (the way equal energy is natural on a shell), not a relaxed-to accident and not an assumption.
+- 7 - **Measurement by geometry, not new physics.** Cat states are simply not stable states of the dynamics; this also explains why empty branches stay empty, which standard Bohmian mechanics merely asserts.
+- 8 - **Gravity has a principled home.** It emerges as the residue of the real-number sector, rather than being hand-named as "the thing that collapses the wave function."
+- 9 - **Infinities tamed by construction.** Number-theoretic granularity gives a built-in short-distance cutoff without anyone imposing one by hand.
 
 **Group C — Consistency: conflicts dissolved rather than papered over**
 
-10 - **Bell by division of labor.** Non-locality explains the correlations; the attractor fixes the statistics. One mechanism per problem, no double-counting — the redundancy that killed earlier drafts is structural now, not stylistic.
-11 - **Lawlike, not conspiratorial.** The state-space restriction is an attractor of the same laws that govern everything, answering the fine-tuning objection structurally.
-12 - **Spacetime stays clean.** The discreteness lives in state space only, so no minimum length, no modified dispersion — and "no discreteness effects" becomes a real promise instead of a hope.
-13 - **The preferred frame is owned, not hidden.** The one relativity departure the theory inherits is stated as an explicit lemma (unobservable at equilibrium) with its cost admitted — where rivals sometimes blur theirs.
-14 - **Acyclic bookkeeping.** Every claim is tagged to the assumption it depends on, and demoted "future work" sections cannot secretly prop up core claims — the rule that prevents the self-contradiction class from recurring.
+- 10 - **Bell by division of labor.** Non-locality explains the correlations; the attractor fixes the statistics. One mechanism per problem, no double-counting — the redundancy that killed earlier drafts is structural now, not stylistic.
+- 11 - **Lawlike, not conspiratorial.** The state-space restriction is an attractor of the same laws that govern everything, answering the fine-tuning objection structurally.
+- 12 - **Spacetime stays clean.** The discreteness lives in state space only, so no minimum length, no modified dispersion — and "no discreteness effects" becomes a real promise instead of a hope.
+- 13 - **The preferred frame is owned, not hidden.** The one relativity departure the theory inherits is stated as an explicit lemma (unobservable at equilibrium) with its cost admitted — where rivals sometimes blur theirs.
+- 14 - **Acyclic bookkeeping.** Every claim is tagged to the assumption it depends on, and demoted "future work" sections cannot secretly prop up core claims — the rule that prevents the self-contradiction class from recurring.
 
 **Group D — Falsifiability: concrete ways it can lose**
 
-15 - **Free discriminating power.** Three parameter-free nulls — no collapse noise, no extra dimensions, no spacetime discreteness — where the rivals' own experiments set the bar. Discriminating power bought for nothing.
-16 - **A scaling verdict on gravitational collapse.** The mesoscopic ceiling should grow with particle count (this theory) versus with mass and geometry (Penrose–Diósi); equal-mass, different-molecule interferometry decides without knowing any constant in advance.
-17 - **A fingerprint, not a fudge.** Deviations from quantum statistics are ordered by how well measurement angles approximate simple fractions — a derived statistical law, checkable even while the overall size stays unknown. The pattern is the theory's, not adjustable.
-18 - **Falsifiable today, with existing data.** Current interferometry (no ceiling near ten-thousand amu) and current Bell precision (no anomaly) must fit one consistent parameter window. If they cannot, the theory is dead now, before anyone builds anything.
-19 - **A named kill zone.** Next-generation interferometry (millions of amu) and micro-refined Bell tests are where it survives or dies. The targets are stated, not "wait and see."
+- 15 - **Free discriminating power.** Three parameter-free nulls — no collapse noise, no extra dimensions, no spacetime discreteness — where the rivals' own experiments set the bar. Discriminating power bought for nothing.
+- 16 - **A scaling verdict on gravitational collapse.** The mesoscopic ceiling should grow with particle count (this theory) versus with mass and geometry (Penrose–Diósi); equal-mass, different-molecule interferometry decides without knowing any constant in advance.
+- 17 - **A fingerprint, not a fudge.** Deviations from quantum statistics are ordered by how well measurement angles approximate simple fractions — a derived statistical law, checkable even while the overall size stays unknown. The pattern is the theory's, not adjustable.
+- 18 - **Falsifiable today, with existing data.** Current interferometry (no ceiling near ten-thousand amu) and current Bell precision (no anomaly) must fit one consistent parameter window. If they cannot, the theory is dead now, before anyone builds anything.
+- 19 - **A named kill zone.** Next-generation interferometry (millions of amu) and micro-refined Bell tests are where it survives or dies. The targets are stated, not "wait and see."
 
 **Group E — Credibility: why the mathematics is tractable**
 
-20 - **The hard math is imported, not promised.** Attractors, Lyapunov spectra, and fractal measures are textbook nonlinear dynamics; a small numerical model can demonstrate the whole mechanism end-to-end. Proof of life, versus rivals' promissory notes.
+- 20 - **The hard math is imported, not promised.** Attractors, Lyapunov spectra, and fractal measures are textbook nonlinear dynamics; a small numerical model can demonstrate the whole mechanism end-to-end. Proof of life, versus rivals' promissory notes.
 
 ---
 
