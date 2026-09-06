@@ -1,3 +1,10 @@
+## prompt
+
+just to clarify, based on latest development, are we trying to prove that IST is on solid ground and it yields quantum mechanics? elaborate in plain english
+
+
+
+
 Yes—but with an important qualification.
 
 We are **not trying to prove that IST is true in the sense of proving that the universe really is an invariant fractal set**. Mathematics cannot establish that from the theory's internal structure alone.
